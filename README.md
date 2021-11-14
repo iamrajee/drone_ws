@@ -16,7 +16,7 @@ source devel/setup.bash && roslaunch plan_manage rviz.launch
 source devel/setup.bash && roslaunch plan_manage kino_replan.launch
 
 
-# =============== Beomsu7 =================#
+# =============== Beomsu7 =================
 https://github.com/beomsu7/Fast-Planner
 
 ### T1
@@ -28,7 +28,7 @@ rosrun mavros mavsafety arm
 ### T3
 rosrun mavros mavsys mode -c OFFBOARD
 
-# ================ Mzahana =================#
+# ================ Mzahana =================
 https://github.com/mzahana/px4_fast_planner
 
 ### T1
@@ -52,7 +52,7 @@ pose:
     z: 0.0
     w: 1.0"
 
-# ========== Fast Planner ERROR =========
+# ============ Fast Planner ERROR ===========
 Triggered!
 [TRIG]: from WAIT_TARGET to GEN_NEW_TRAJ
 [kino replan]: -----------------------
