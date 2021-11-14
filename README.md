@@ -52,7 +52,7 @@ pose:
     z: 0.0
     w: 1.0"
 
-# =================== Fast Planner ERROR ============
+# ========== Fast Planner ERROR =========
 Triggered!
 [TRIG]: from WAIT_TARGET to GEN_NEW_TRAJ
 [kino replan]: -----------------------
