@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/rajendra/drone_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/bspline/include/**",
+        "/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/bspline_opt/include/**",
+        "/home/rajendra/drone_ws/src/VINS-Fusion/camera_models/include/**",
+        "/home/rajendra/drone_ws/src/mavros_controllers/controller_msgs/include/**",
+        "/home/rajendra/drone_ws/src/mavros_controllers/geometric_controller/include/**",
+        "/home/rajendra/drone_ws/src/mavros/libmavconn/include/**",
+        "/home/rajendra/drone_ws/src/mavros/mavros/include/**",
+        "/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/**",
+        "/home/rajendra/drone_ws/src/mavtest/include/**",
+        "/home/rajendra/drone_ws/src/octomap_mapping/octomap_server/include/**",
+        "/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/include/**",
+        "/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_env/include/**",
+        "/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/include/**",
+        "/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/poly_traj/include/**",
+        "/home/rajendra/drone_ws/src/Fast-Planner/uav_simulator/Utils/quadrotor_msgs/include/**",
+        "/home/rajendra/drone_ws/src/mavros/test_mavros/include/**",
+        "/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/traj_utils/include/**",
+        "/home/rajendra/drone_ws/src/mavros_controllers/trajectory_publisher/include/**",
+        "/home/rajendra/drone_ws/src/mavros_offboard_control/uav_control/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

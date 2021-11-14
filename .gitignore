@@ -1,0 +1,5 @@
+build/*
+devel/*
+src/*
+ceres*
+vins_output/*
