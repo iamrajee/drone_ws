@@ -1,7 +1,7 @@
 # ERROR: Unknown model iris_depth_camera (not found by name on
 cd workspace/src
 cp Fast-Planner/storage/1024_iris_depth_camera ~/.ros/etc/init.d-posix/airframes/1024_iris_depth_camera
-
+??mzahana sudo apt install ros-noetic-multi-map-server
 # =========== Install ===========
 ### ERROR: missing geometric_controller or mavros_controllers
 git clone https://github.com/Jaeyoung-Lim/mavros_controllers.git
