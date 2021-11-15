@@ -144,6 +144,15 @@ code cv_bridgeConfig.cmake
 #### Simple =>? removing that inclusion (#include "opencv2/imgcodecs/legacy/constancts_c.h").
 Doesn;t either Works?
 
+### fatal error: development/mavlink.h: No such file or directory
+https://github.com/PX4/PX4-SITL_gazebo/issues/823
+cd ~/px4_ws/src/PX4-SITL_gazebo
+git checkout 6fa6ec78a7a1619b7b90ac0c01aaec919defbe35
+
+?? catkin_make
+[100%] Linking CXX executable /home/rajendra/drone_ws/devel/lib/vins/vins_node
+/usr/bin/ld: warning: libopencv_video.so.4.2, needed by /home/rajendra/drone_ws/devel/lib/libvins_lib.so, may conflict with libopencv_video.so.3.4
+[100%] Built target vins_node
 
 
 
