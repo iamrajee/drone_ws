@@ -1,5 +1,9 @@
 build/*
 devel/*
-src/*
 ceres*
 vins_output/*
+#src/*
+#src/Fast-Planner/*
+#src/PX4-Autopilot/*
+#src/PX4-SITL_gazebo/*
+#src/VINS-Fusion/*
