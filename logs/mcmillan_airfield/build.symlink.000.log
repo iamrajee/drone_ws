@@ -1,0 +1,4 @@
+Symlinking /home/rajendra/drone_ws/devel/share/mcmillan_airfield/cmake/mcmillan_airfieldConfig.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/mcmillan_airfield/cmake/mcmillan_airfieldConfig-version.cmake
+Symlinking /home/rajendra/drone_ws/devel/etc/catkin/profile.d/99_mcmillan_airfield_setup.sh
+Symlinking /home/rajendra/drone_ws/devel/lib/pkgconfig/mcmillan_airfield.pc

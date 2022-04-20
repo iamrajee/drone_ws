@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target mavlink_serial_client[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/mavlink_serial_client.dir/src/SerialComm.cc.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/mavlink_serial_client.dir/src/mavlink_serial_client.cc.o[0m
+[100%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/mavlink_serial_client/lib/mavlink_serial_client/mavlink_serial_client[0m
+[100%] Built target mavlink_serial_client

@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target bspline[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/bspline.dir/src/non_uniform_bspline.cpp.o[0m
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/bspline/src/non_uniform_bspline.cpp: In member function ‘bool fast_planner::NonUniformBspline::checkFeasibility(bool)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/bspline/src/non_uniform_bspline.cpp:186:10: warning: unused variable ‘ratio’ [-Wunused-variable]
+  186 |   double ratio = max(max_vel / limit_vel_, sqrt(fabs(max_acc) / limit_acc_));
+      |          ^~~~~
+[100%] [32m[1mLinking CXX shared library /home/rajendra/drone_ws/devel/.private/bspline/lib/libbspline.so[0m
+[100%] Built target bspline

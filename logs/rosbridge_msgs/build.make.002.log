@@ -1,0 +1,13 @@
+[  0%] Built target _rosbridge_msgs_generate_messages_check_deps_ConnectedClients
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _rosbridge_msgs_generate_messages_check_deps_ConnectedClient
+[  0%] Built target std_msgs_generate_messages_nodejs
+[ 25%] Built target rosbridge_msgs_generate_messages_eus
+[ 41%] Built target rosbridge_msgs_generate_messages_lisp
+[ 66%] Built target rosbridge_msgs_generate_messages_py
+[ 83%] Built target rosbridge_msgs_generate_messages_cpp
+[100%] Built target rosbridge_msgs_generate_messages_nodejs
+[100%] Built target rosbridge_msgs_generate_messages

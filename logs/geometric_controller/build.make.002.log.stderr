@@ -1,0 +1,8 @@
+In file included from [01m[K/home/rajendra/drone_ws/src/mavros_controllers/geometric_controller/src/geometric_controller.cpp:41[m[K:
+[01m[K/home/rajendra/drone_ws/src/mavros_controllers/geometric_controller/include/geometric_controller/geometric_controller.h:66:10:[m[K [01;31m[Kfatal error: [m[Kcontroller_msgs/FlatTarget.h: No such file or directory
+   66 | #include [01;31m[K<controller_msgs/FlatTarget.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/geometric_controller.dir/build.make:82: CMakeFiles/geometric_controller.dir/src/geometric_controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:567: CMakeFiles/geometric_controller.dir/all] Error 2
+make: *** [Makefile:160: all] Error 2

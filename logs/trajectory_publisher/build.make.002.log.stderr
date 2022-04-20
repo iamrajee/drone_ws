@@ -1,0 +1,4 @@
+/home/rajendra/drone_ws/src/mavros_controllers/trajectory_publisher/src/trajectoryPublisher.cpp: In member function ‘bool trajectoryPublisher::triggerCallback(std_srvs::SetBool::Request&, std_srvs::SetBool::Response&)’:
+/home/rajendra/drone_ws/src/mavros_controllers/trajectory_publisher/src/trajectoryPublisher.cpp:248:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  248 | }
+      | ^

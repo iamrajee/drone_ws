@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target mrf_dynamics[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/mrf_dynamics.dir/src/Drone.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/mrf_dynamics.dir/src/mrf_dynamics.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/mrf_dynamics/lib/mrf_dynamics/mrf_dynamics[0m
+[100%] Built target mrf_dynamics

@@ -1,0 +1,4 @@
+Symlinking /home/rajendra/drone_ws/devel/share/bspline/cmake/bsplineConfig-version.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/bspline/cmake/bsplineConfig.cmake
+Symlinking /home/rajendra/drone_ws/devel/lib/libbspline.so
+Symlinking /home/rajendra/drone_ws/devel/lib/pkgconfig/bspline.pc

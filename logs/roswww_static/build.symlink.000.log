@@ -1,0 +1,5 @@
+Symlinking /home/rajendra/drone_ws/devel/share/roswww_static/cmake/roswww_staticConfig.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/roswww_static/cmake/roswww_staticConfig-version.cmake
+Symlinking /home/rajendra/drone_ws/devel/lib/pkgconfig/roswww_static.pc
+Symlinking /home/rajendra/drone_ws/devel/lib/roswww_static/main.py
+Symlinking /home/rajendra/drone_ws/devel/lib/roswww_static/cmake.lock

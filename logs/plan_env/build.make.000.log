@@ -1,0 +1,27 @@
+[35m[1mScanning dependencies of target obj_generator[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/obj_generator.dir/src/obj_generator.cpp.o[0m
+[35m[1mScanning dependencies of target plan_env[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/plan_env.dir/src/sdf_map.cpp.o[0m
+[ 42%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/plan_env/lib/plan_env/obj_generator[0m
+[ 42%] Built target obj_generator
+[ 57%] [32mBuilding CXX object CMakeFiles/plan_env.dir/src/obj_predictor.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/plan_env.dir/src/edt_environment.cpp.o[0m
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_env/src/obj_predictor.cpp: In member function ‘void fast_planner::ObjHistory::poseCallback(const PoseStampedConstPtr&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_env/src/obj_predictor.cpp:53:23: warning: comparison of integer expressions of different signedness: ‘std::__cxx11::list<Eigen::Matrix<double, 4, 1> >::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+   53 |   if (history_.size() > queue_size_) history_.pop_front();
+      |       ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+[ 85%] [32mBuilding CXX object CMakeFiles/plan_env.dir/src/raycast.cpp.o[0m
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_env/src/edt_environment.cpp: In member function ‘double fast_planner::EDTEnvironment::minDistToAllBox(const Vector3d&, const double&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_env/src/edt_environment.cpp:66:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<fast_planner::PolynomialPrediction>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   66 |   for (int i = 0; i < obj_prediction_->size(); i++) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_env/src/edt_environment.cpp: In member function ‘std::pair<double, Eigen::Matrix<double, 3, 1> > fast_planner::EDTEnvironment::interpolateTrilinear(double (*)[2][2], const Vector3d&, double&, Eigen::Vector3d&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_env/src/edt_environment.cpp:105:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  105 | }
+      | ^
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_env/src/edt_environment.cpp: In member function ‘std::pair<double, Eigen::Matrix<double, 3, 1> > fast_planner::EDTEnvironment::evaluateEDTWithGrad(const Vector3d&, double, double&, Eigen::Vector3d&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_env/src/edt_environment.cpp:118:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  118 | }
+      | ^
+[100%] [32m[1mLinking CXX shared library /home/rajendra/drone_ws/devel/.private/plan_env/lib/libplan_env.so[0m
+[100%] Built target plan_env

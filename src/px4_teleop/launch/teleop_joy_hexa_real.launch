@@ -1,0 +1,25 @@
+<launch>
+
+    <!-- Arguments -->
+    <arg name="joy_dev" default="/dev/input/js0"/>
+    <arg name="joy_config_path" default="$(find px4_teleop)/config/f310.yaml"/>
+    <arg name="joy_rc_mode" default="1"/>
+    <arg name="takeoff_height" default="2.0"/>
+    <arg name="origin_frame" default="map"/>
+    <arg name="vehicle_frame" default="base_link"/>
+
+    <node name="joy_publisher" pkg="px4_teleop" type="joy_publisher" output="screen">
+        <param name="joy_dev" type="str" value="$(arg joy_dev)"/>
+    </node>
+
+    <node name="px4_teleop_joy" pkg="px4_teleop" type="px4_teleop_joy" output="screen">
+        <param name="joy_config_path" type="str" value="$(arg joy_config_path)"/>
+        <param name="joy_rc_mode" type="int" value="$(arg joy_rc_mode)"/>
+        <param name="takeoff_height" type="double" value="$(arg takeoff_height)"/>
+        <param name="origin_frame" type="str" value="$(arg origin_frame)"/>
+        <param name="vehicle_frame" type="str" value="$(arg vehicle_frame)"/>
+    </node>
+
+</launch>
+
+<!-- vim: set et ft=xml fenc=utf-8 ff=unix sts=0 sw=4 ts=4 : -->

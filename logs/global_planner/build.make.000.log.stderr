@@ -1,0 +1,20 @@
+In file included from /home/rajendra/drone_ws/src/PX4-Avoidance/global_planner/include/global_planner/global_planner.h:27,
+                 from /home/rajendra/drone_ws/src/PX4-Avoidance/global_planner/src/library/global_planner.cpp:1:
+/home/rajendra/drone_ws/src/PX4-Avoidance/global_planner/include/global_planner/search_tools.h: In function ‘bool global_planner::reverseSearch(GlobalPlanner*, const global_planner::Cell&)’:
+/home/rajendra/drone_ws/src/PX4-Avoidance/global_planner/include/global_planner/search_tools.h:262:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  262 | }
+      | ^
+In file included from /home/rajendra/drone_ws/src/PX4-Avoidance/global_planner/include/global_planner/global_planner.h:27,
+                 from /home/rajendra/drone_ws/src/PX4-Avoidance/global_planner/include/global_planner/global_planner_node.h:32,
+                 from /home/rajendra/drone_ws/src/PX4-Avoidance/global_planner/src/nodes/global_planner_node.cpp:1:
+/home/rajendra/drone_ws/src/PX4-Avoidance/global_planner/include/global_planner/search_tools.h: In function ‘bool global_planner::reverseSearch(GlobalPlanner*, const global_planner::Cell&)’:
+/home/rajendra/drone_ws/src/PX4-Avoidance/global_planner/include/global_planner/search_tools.h:262:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  262 | }
+      | ^
+In file included from /home/rajendra/drone_ws/src/PX4-Avoidance/global_planner/include/global_planner/global_planner.h:27,
+                 from /home/rajendra/drone_ws/src/PX4-Avoidance/global_planner/include/global_planner/global_planner_node.h:32,
+                 from /home/rajendra/drone_ws/src/PX4-Avoidance/global_planner/src/nodes/global_planner_node_main.cpp:1:
+/home/rajendra/drone_ws/src/PX4-Avoidance/global_planner/include/global_planner/search_tools.h: In function ‘bool global_planner::reverseSearch(GlobalPlanner*, const global_planner::Cell&)’:
+/home/rajendra/drone_ws/src/PX4-Avoidance/global_planner/include/global_planner/search_tools.h:262:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  262 | }
+      | ^

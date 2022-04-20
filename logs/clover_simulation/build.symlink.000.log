@@ -1,0 +1,8 @@
+Symlinking /home/rajendra/drone_ws/devel/share/clover_simulation/cmake/clover_simulationConfig-version.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/clover_simulation/cmake/clover_simulationConfig.cmake
+Symlinking /home/rajendra/drone_ws/devel/lib/libthrottling_camera.so
+Symlinking /home/rajendra/drone_ws/devel/lib/libsim_leds.so
+Symlinking /home/rajendra/drone_ws/devel/lib/python3/dist-packages/clover_simulation/__init__.py
+Symlinking /home/rajendra/drone_ws/devel/lib/clover_simulation/aruco_gen
+Symlinking /home/rajendra/drone_ws/devel/lib/clover_simulation/cmake.lock
+Symlinking /home/rajendra/drone_ws/devel/lib/pkgconfig/clover_simulation.pc

@@ -1,0 +1,73 @@
+Not searching for unused variables given on the command line.
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+[36m--[0m The C compiler identification is GNU 9.3.0
+[36m--[0m The CXX compiler identification is GNU 9.3.0
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Check for working C compiler: /usr/lib/ccache/cc - skipped
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/rajendra/drone_ws/devel/.private/rosbridge_server
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/rajendra/drone_ws/devel;/opt/ros/noetic
+[36m--[0m This workspace overlays: /home/rajendra/drone_ws/devel;/opt/ros/noetic
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python3
+[36m--[0m Using Debian Python package layout
+[36m--[0m Found PY_em: /home/rajendra/.local/lib/python3.8/site-packages/em.py
+[36m--[0m Using empy: /home/rajendra/.local/lib/python3.8/site-packages/em.py
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/rajendra/drone_ws/build/rosbridge_server/test_results
+[36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+CMake Deprecation Warning at /usr/src/googletest/CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at /usr/src/googletest/googlemock/CMakeLists.txt:45 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at /usr/src/googletest/googletest/CMakeLists.txt:56 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found version "3.8.10")
+[36m--[0m Found Threads: TRUE
+[36m--[0m Using Python nosetests: /usr/bin/nosetests3
+[36m--[0m catkin 0.8.10
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Installing devel-space wrapper /home/rajendra/drone_ws/src/rosbridge_suite/rosbridge_server/scripts/rosbridge_websocket.py to /home/rajendra/drone_ws/devel/.private/rosbridge_server/lib/rosbridge_server
+[36m--[0m Installing devel-space wrapper /home/rajendra/drone_ws/src/rosbridge_suite/rosbridge_server/scripts/rosbridge_websocket to /home/rajendra/drone_ws/devel/.private/rosbridge_server/lib/rosbridge_server
+[36m--[0m Installing devel-space wrapper /home/rajendra/drone_ws/src/rosbridge_suite/rosbridge_server/scripts/rosbridge_tcp.py to /home/rajendra/drone_ws/devel/.private/rosbridge_server/lib/rosbridge_server
+[36m--[0m Installing devel-space wrapper /home/rajendra/drone_ws/src/rosbridge_suite/rosbridge_server/scripts/rosbridge_tcp to /home/rajendra/drone_ws/devel/.private/rosbridge_server/lib/rosbridge_server
+[36m--[0m Installing devel-space wrapper /home/rajendra/drone_ws/src/rosbridge_suite/rosbridge_server/scripts/rosbridge_udp to /home/rajendra/drone_ws/devel/.private/rosbridge_server/lib/rosbridge_server
+[36m--[0m Installing devel-space wrapper /home/rajendra/drone_ws/src/rosbridge_suite/rosbridge_server/scripts/rosbridge_udp.py to /home/rajendra/drone_ws/devel/.private/rosbridge_server/lib/rosbridge_server
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/rajendra/drone_ws/build/rosbridge_server

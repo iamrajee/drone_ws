@@ -1,0 +1,10 @@
+[  0%] Built target _clover_blocks_generate_messages_check_deps_Run
+[  0%] Built target _clover_blocks_generate_messages_check_deps_Prompt
+[  0%] Built target _clover_blocks_generate_messages_check_deps_Load
+[  0%] Built target _clover_blocks_generate_messages_check_deps_Store
+[ 26%] Built target clover_blocks_generate_messages_py
+[ 43%] Built target clover_blocks_generate_messages_nodejs
+[ 60%] Built target clover_blocks_generate_messages_lisp
+[ 82%] Built target clover_blocks_generate_messages_eus
+[100%] Built target clover_blocks_generate_messages_cpp
+[100%] Built target clover_blocks_generate_messages

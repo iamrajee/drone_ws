@@ -1,5 +1,11 @@
 build/*
+.build/
+..build/
+build_isolated/
 devel/*
+.devel/
+..devel/
+devel_isolated/
 ceres*
 vins_output/*
 #src/*
@@ -7,3 +13,27 @@ vins_output/*
 #src/PX4-Autopilot/*
 #src/PX4-SITL_gazebo/*
 #src/VINS-Fusion/*
+*.vscode
+MissionPlanner-latest/
+QGroundControl.AppImage
+ardupilot/
+bagfiles/
+Logs/
+mav.*
+
+src/.FUEL/
+src/.Fast-Planner/
+src/.PX4-Autopilot/
+src/.PX4-SITL_gazebo/
+src/.VINS-Fusion/
+# src/.drone_demo/
+src/PX4-Avoidance/
+src/clover/docs/
+
+#=== Good but big === #
+src/uav_testing/
+src/rtabmap_drone_example/
+src/XTDrone/
+src/.XTDrone/
+src/sb_min_time_quadrotor_planning/
+terrain/

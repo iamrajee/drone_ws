@@ -1,0 +1,555 @@
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  3%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher[0m
+[  3%] Built target tf_generate_messages_cpp
+[  3%] Built target trajectory_msgs_generate_messages_nodejs
+[  3%] Built target trajectory_msgs_generate_messages_lisp
+[  3%] Built target visualization_msgs_generate_messages_nodejs
+[  3%] Built target tf_generate_messages_nodejs
+[  3%] Built target tf2_msgs_generate_messages_nodejs
+[  3%] Built target trajectory_msgs_generate_messages_cpp
+[  3%] Built target actionlib_generate_messages_nodejs
+[  3%] Built target tf2_msgs_generate_messages_cpp
+[  3%] Built target actionlib_generate_messages_cpp
+[  3%] Built target tf2_msgs_generate_messages_lisp
+[  3%] Built target tf_generate_messages_eus
+[  3%] Built target actionlib_msgs_generate_messages_eus
+[  3%] Built target rosgraph_msgs_generate_messages_lisp
+[  3%] Built target trajectory_msgs_generate_messages_eus
+[  3%] Built target visualization_msgs_generate_messages_eus
+[  3%] Built target nav_msgs_generate_messages_cpp
+[  3%] Built target roscpp_generate_messages_py
+[  3%] Built target std_msgs_generate_messages_nodejs
+[  3%] Built target geometry_msgs_generate_messages_eus
+[  3%] Built target diagnostic_msgs_generate_messages_lisp
+[  3%] Built target std_msgs_generate_messages_cpp
+[  3%] Built target nav_msgs_generate_messages_eus
+[  3%] Built target actionlib_generate_messages_py
+[  3%] Built target std_msgs_generate_messages_py
+[  3%] Built target diagnostic_msgs_generate_messages_eus
+[  3%] Built target roscpp_generate_messages_cpp
+[  3%] Built target geometry_msgs_generate_messages_py
+[  3%] Built target tf2_msgs_generate_messages_eus
+[  3%] Built target actionlib_generate_messages_lisp
+[  3%] Built target sensor_msgs_generate_messages_py
+[  3%] Built target tf_generate_messages_lisp
+[  3%] Built target nav_msgs_generate_messages_py
+[  3%] Built target roscpp_generate_messages_lisp
+[  3%] Built target mavros_msgs_generate_messages_eus
+[  3%] Built target diagnostic_msgs_generate_messages_cpp
+[  3%] Built target rosgraph_msgs_generate_messages_py
+[  3%] Built target geometry_msgs_generate_messages_nodejs
+[  3%] Built target trajectory_msgs_generate_messages_py
+[  3%] Built target rosgraph_msgs_generate_messages_cpp
+[  3%] Built target geometry_msgs_generate_messages_cpp
+[  3%] Built target actionlib_generate_messages_eus
+[  3%] Built target diagnostic_msgs_generate_messages_nodejs
+[  3%] Built target uuid_msgs_generate_messages_lisp
+[  3%] Built target roscpp_generate_messages_nodejs
+[  3%] Built target mavros_msgs_generate_messages_py
+[  3%] Built target std_msgs_generate_messages_lisp
+[  3%] Built target roscpp_generate_messages_eus
+[  3%] Built target uuid_msgs_generate_messages_eus
+[  3%] Built target geometry_msgs_generate_messages_lisp
+[  3%] Built target uuid_msgs_generate_messages_cpp
+[  3%] Built target rosgraph_msgs_generate_messages_nodejs
+[  3%] Built target geographic_msgs_generate_messages_cpp
+[  3%] Built target geographic_msgs_generate_messages_eus
+[  3%] Built target geographic_msgs_generate_messages_lisp
+[  3%] Built target nav_msgs_generate_messages_nodejs
+[  3%] Built target sensor_msgs_generate_messages_cpp
+[  3%] Built target rosgraph_msgs_generate_messages_eus
+[  3%] Built target diagnostic_msgs_generate_messages_py
+[  3%] Built target geographic_msgs_generate_messages_nodejs
+[  3%] Built target geographic_msgs_generate_messages_py
+[  3%] Built target visualization_msgs_generate_messages_cpp
+[  3%] Built target sensor_msgs_generate_messages_eus
+[  3%] Built target sensor_msgs_generate_messages_lisp
+[  3%] Built target uuid_msgs_generate_messages_py
+[  3%] Built target uuid_msgs_generate_messages_nodejs
+[  3%] Built target tf2_msgs_generate_messages_py
+[  3%] Built target mavros_msgs_generate_messages_cpp
+[  3%] Built target actionlib_msgs_generate_messages_py
+[  3%] Built target mavros_msgs_generate_messages_lisp
+[  3%] Built target mavros_msgs_generate_messages_nodejs
+[  3%] Built target sensor_msgs_generate_messages_nodejs
+[  3%] Built target nav_msgs_generate_messages_lisp
+[  3%] Built target tf_generate_messages_py
+[  3%] Built target std_msgs_generate_messages_eus
+[  3%] Built target actionlib_msgs_generate_messages_lisp
+[  3%] Built target actionlib_msgs_generate_messages_cpp
+[  6%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/mavros_extras/lib/mavros_extras/visualization[0m
+[35m[1mScanning dependencies of target mavros_extras[0m
+[  9%] Built target servo_state_publisher
+[ 12%] Built target visualization
+[ 15%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/adsb.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/cam_imu_sync.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/companion_process_status.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/onboard_computer_status.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/debug_value.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/distance_sensor.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/esc_status.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/fake_gps.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/esc_telemetry.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/gps_input.cpp.o[0m
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/debug_value.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/debug_value.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/cam_imu_sync.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/cam_imu_sync.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/companion_process_status.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/companion_process_status.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/onboard_computer_status.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/onboard_computer_status.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/adsb.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/adsb.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/distance_sensor.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/distance_sensor.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+[ 48%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/gps_status.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/gps_rtk.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/landing_target.cpp.o[0m
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/gps_input.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/gps_input.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+[ 54%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/mag_calibration_status.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/log_transfer.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/mocap_pose_estimate.cpp.o[0m
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/fake_gps.cpp:21:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/fake_gps.cpp:21:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+[ 63%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/mount_control.cpp.o[0m
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/esc_status.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/esc_status.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+[ 66%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/obstacle_distance.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/odom.cpp.o[0m
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/esc_telemetry.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/esc_telemetry.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+[ 72%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/play_tune.cpp.o[0m
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/gps_status.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/gps_status.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/gps_rtk.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/gps_rtk.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/mocap_pose_estimate.cpp:18:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/mocap_pose_estimate.cpp:18:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/mag_calibration_status.cpp:11:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/mag_calibration_status.cpp:11:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/landing_target.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/landing_target.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/log_transfer.cpp:1:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/log_transfer.cpp:1:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+[ 75%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/px4flow.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/trajectory.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/rangefinder.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/tunnel.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/vibration.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/vision_pose_estimate.cpp.o[0m
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/obstacle_distance.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/obstacle_distance.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+[ 93%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/vision_speed_estimate.cpp.o[0m
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/odom.cpp:19:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/odom.cpp:19:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/mount_control.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/mount_control.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+[ 96%] [32mBuilding CXX object CMakeFiles/mavros_extras.dir/src/plugins/wheel_odometry.cpp.o[0m
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/play_tune.cpp:1:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/play_tune.cpp:1:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/trajectory.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/trajectory.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/vision_pose_estimate.cpp:18:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/vision_pose_estimate.cpp:18:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/px4flow.cpp:19:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/px4flow.cpp:19:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/rangefinder.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/rangefinder.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/tunnel.cpp:2:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/tunnel.cpp:2:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/vibration.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/vibration.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/vision_speed_estimate.cpp:18:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/vision_speed_estimate.cpp:18:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/wheel_odometry.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const Mavlink&, mavlink::mavlink_message_t&)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:74:63: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+   74 |  std::copy(rmsg.payload64.begin(), rmsg.payload64.end(), mmsg.payload64);
+      |                                                          ~~~~~^~~~~~~~~
+In file included from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/utils.h:22,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_uas.h:30,
+                 from /home/rajendra/drone_ws/src/mavros/mavros/include/mavros/mavros_plugin.h:25,
+                 from /home/rajendra/drone_ws/src/mavros/mavros_extras/src/plugins/wheel_odometry.cpp:17:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h: In function ‘bool mavros_msgs::mavlink::convert(const mavlink_message_t&, mavros_msgs::Mavlink&, uint8_t)’:
+/home/rajendra/drone_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h:108:62: warning: taking address of packed member of ‘mavlink::__mavlink_message’ may result in an unaligned pointer value [-Waddress-of-packed-member]
+  108 |  rmsg.payload64 = mavros_msgs::Mavlink::_payload64_type(mmsg.payload64, mmsg.payload64 + payload64_len);
+      |                                                         ~~~~~^~~~~~~~~
+[100%] [32m[1mLinking CXX shared library /home/rajendra/drone_ws/devel/.private/mavros_extras/lib/libmavros_extras.so[0m
+[100%] Built target mavros_extras

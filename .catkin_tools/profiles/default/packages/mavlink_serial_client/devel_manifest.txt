@@ -1,0 +1,6 @@
+px-ros-pkg/drivers/mavlink_serial_client
+/home/rajendra/drone_ws/devel/.private/mavlink_serial_client/cmake.lock /home/rajendra/drone_ws/devel/./cmake.lock
+/home/rajendra/drone_ws/devel/.private/mavlink_serial_client/share/mavlink_serial_client/cmake/mavlink_serial_clientConfig-version.cmake /home/rajendra/drone_ws/devel/share/mavlink_serial_client/cmake/mavlink_serial_clientConfig-version.cmake
+/home/rajendra/drone_ws/devel/.private/mavlink_serial_client/share/mavlink_serial_client/cmake/mavlink_serial_clientConfig.cmake /home/rajendra/drone_ws/devel/share/mavlink_serial_client/cmake/mavlink_serial_clientConfig.cmake
+/home/rajendra/drone_ws/devel/.private/mavlink_serial_client/lib/pkgconfig/mavlink_serial_client.pc /home/rajendra/drone_ws/devel/lib/pkgconfig/mavlink_serial_client.pc
+/home/rajendra/drone_ws/devel/.private/mavlink_serial_client/lib/mavlink_serial_client/mavlink_serial_client /home/rajendra/drone_ws/devel/lib/mavlink_serial_client/mavlink_serial_client

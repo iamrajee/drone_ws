@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target rrt[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rrt.dir/src/rrt.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/rrt-planning/lib/rrt-planning/rrt[0m
+[100%] Built target rrt

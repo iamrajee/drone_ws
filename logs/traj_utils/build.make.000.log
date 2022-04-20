@@ -1,0 +1,42 @@
+[35m[1mScanning dependencies of target traj_utils[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/traj_utils.dir/src/planning_visualization.cpp.o[0m
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/traj_utils/src/planning_visualization.cpp: In member function ‘void fast_planner::PlanningVisualization::drawBsplinesPhase1(std::vector<fast_planner::NonUniformBspline>&, double)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/traj_utils/src/planning_visualization.cpp:181:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<fast_planner::NonUniformBspline>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  181 |   for (int i = 0; i < bsplines.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/traj_utils/src/planning_visualization.cpp: In member function ‘void fast_planner::PlanningVisualization::drawBsplinesPhase2(std::vector<fast_planner::NonUniformBspline>&, double)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/traj_utils/src/planning_visualization.cpp:196:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<fast_planner::NonUniformBspline>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  196 |   for (int i = 0; i < bsplines.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/traj_utils/src/planning_visualization.cpp: In member function ‘void fast_planner::PlanningVisualization::drawTopoGraph(std::__cxx11::list<std::shared_ptr<fast_planner::GraphNode> >&, double, double, const Vector4d&, const Vector4d&, const Vector4d&, int)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/traj_utils/src/planning_visualization.cpp:257:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::shared_ptr<fast_planner::GraphNode> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  257 |     for (int k = 0; k < (*iter)->neighbors_.size(); ++k) {
+      |                     ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/traj_utils/src/planning_visualization.cpp: In member function ‘void fast_planner::PlanningVisualization::drawTopoPathsPhase2(std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&, double)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/traj_utils/src/planning_visualization.cpp:279:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  279 |   for (int i = 0; i < paths.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/traj_utils/src/planning_visualization.cpp:282:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Eigen::Matrix<double, 3, 1> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  282 |     for (int j = 0; j < paths[i].size() - 1; ++j) {
+      |                     ~~^~~~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/traj_utils/src/planning_visualization.cpp: In member function ‘void fast_planner::PlanningVisualization::drawTopoPathsPhase1(std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&, double)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/traj_utils/src/planning_visualization.cpp:303:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  303 |   for (int i = 0; i < paths.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/traj_utils/src/planning_visualization.cpp:306:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Eigen::Matrix<double, 3, 1> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  306 |     for (int j = 0; j < paths[i].size() - 1; ++j) {
+      |                     ~~^~~~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/traj_utils/src/planning_visualization.cpp: In member function ‘void fast_planner::PlanningVisualization::drawPrediction(fast_planner::ObjPrediction, double, const Vector4d&, int)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/traj_utils/src/planning_visualization.cpp:341:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<fast_planner::PolynomialPrediction>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  341 |   for (int i = 0; i < pred->size(); i++) {
+      |                   ~~^~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/traj_utils/src/planning_visualization.cpp: In member function ‘void fast_planner::PlanningVisualization::drawYawPath(fast_planner::NonUniformBspline&, const std::vector<double>&, const double&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/traj_utils/src/planning_visualization.cpp:375:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<double>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  375 |   for (int i = 0; i < yaw.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/traj_utils/src/planning_visualization.cpp: In member function ‘Eigen::Vector4d fast_planner::PlanningVisualization::getColor(double, double)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/traj_utils/src/planning_visualization.cpp:392:19: warning: ‘lambda’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  392 |   double          lambda;
+      |                   ^~~~~~
+[100%] [32m[1mLinking CXX shared library /home/rajendra/drone_ws/devel/.private/traj_utils/lib/libtraj_utils.so[0m
+[100%] Built target traj_utils

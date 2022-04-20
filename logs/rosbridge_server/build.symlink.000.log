@@ -1,0 +1,11 @@
+Symlinking /home/rajendra/drone_ws/devel/share/rosbridge_server/cmake/rosbridge_serverConfig-version.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/rosbridge_server/cmake/rosbridge_serverConfig.cmake
+Symlinking /home/rajendra/drone_ws/devel/lib/rosbridge_server/rosbridge_udp.py
+Symlinking /home/rajendra/drone_ws/devel/lib/rosbridge_server/rosbridge_udp
+Symlinking /home/rajendra/drone_ws/devel/lib/rosbridge_server/rosbridge_websocket
+Symlinking /home/rajendra/drone_ws/devel/lib/rosbridge_server/rosbridge_tcp
+Symlinking /home/rajendra/drone_ws/devel/lib/rosbridge_server/rosbridge_websocket.py
+Symlinking /home/rajendra/drone_ws/devel/lib/rosbridge_server/rosbridge_tcp.py
+Symlinking /home/rajendra/drone_ws/devel/lib/rosbridge_server/cmake.lock
+Symlinking /home/rajendra/drone_ws/devel/lib/python3/dist-packages/rosbridge_server/__init__.py
+Symlinking /home/rajendra/drone_ws/devel/lib/pkgconfig/rosbridge_server.pc

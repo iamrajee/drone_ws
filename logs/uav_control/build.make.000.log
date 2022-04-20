@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target uav_waypoint[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/uav_waypoint.dir/src/UAVWaypointControl.cpp.o[0m
+[35m[1mScanning dependencies of target uav_take_off[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/uav_take_off.dir/src/UAVTakeoff.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/uav_control/lib/uav_control/uav_take_off[0m
+[ 50%] Built target uav_take_off
+[35m[1mScanning dependencies of target uav_motion_primitive[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/uav_motion_primitive.dir/src/UAVMotionPrimitive.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/uav_control/lib/uav_control/uav_waypoint[0m
+[ 83%] Built target uav_waypoint
+[100%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/uav_control/lib/uav_control/uav_motion_primitive[0m
+[100%] Built target uav_motion_primitive

@@ -1,0 +1,4 @@
+Symlinking /home/rajendra/drone_ws/devel/share/waypoint_generator/cmake/waypoint_generatorConfig.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/waypoint_generator/cmake/waypoint_generatorConfig-version.cmake
+Symlinking /home/rajendra/drone_ws/devel/lib/waypoint_generator/waypoint_generator
+Symlinking /home/rajendra/drone_ws/devel/lib/pkgconfig/waypoint_generator.pc

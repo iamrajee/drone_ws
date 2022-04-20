@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target geo_controller[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/geo_controller.dir/src/controllerImpl.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/geo_controller.dir/src/definitions.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/rajendra/drone_ws/devel/.private/geo_controller/lib/libgeo_controller.so[0m
+[100%] Built target geo_controller

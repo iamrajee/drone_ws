@@ -1,0 +1,6 @@
+warehouse-quad/controller
+/home/rajendra/drone_ws/devel/.private/controller/cmake.lock /home/rajendra/drone_ws/devel/./cmake.lock
+/home/rajendra/drone_ws/devel/.private/controller/share/controller/cmake/controllerConfig-version.cmake /home/rajendra/drone_ws/devel/share/controller/cmake/controllerConfig-version.cmake
+/home/rajendra/drone_ws/devel/.private/controller/share/controller/cmake/controllerConfig.cmake /home/rajendra/drone_ws/devel/share/controller/cmake/controllerConfig.cmake
+/home/rajendra/drone_ws/devel/.private/controller/lib/controller/controller /home/rajendra/drone_ws/devel/lib/controller/controller
+/home/rajendra/drone_ws/devel/.private/controller/lib/pkgconfig/controller.pc /home/rajendra/drone_ws/devel/lib/pkgconfig/controller.pc

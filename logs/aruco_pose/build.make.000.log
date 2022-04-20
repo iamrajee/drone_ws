@@ -1,0 +1,74 @@
+[35m[1mScanning dependencies of target aruco_pose_gencfg[0m
+[  3%] [34m[1mGenerating dynamic reconfigure files from cfg/Detector.cfg: /home/rajendra/drone_ws/devel/.private/aruco_pose/include/aruco_pose/DetectorConfig.h /home/rajendra/drone_ws/devel/.private/aruco_pose/lib/python3/dist-packages/aruco_pose/cfg/DetectorConfig.py[0m
+Generating reconfiguration files for Detector in aruco_pose
+Wrote header file in /home/rajendra/drone_ws/devel/.private/aruco_pose/include/aruco_pose/DetectorConfig.h
+[  3%] Built target aruco_pose_gencfg
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  3%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target _aruco_pose_generate_messages_check_deps_Point2D[0m
+[  3%] Built target _aruco_pose_generate_messages_check_deps_Point2D
+[35m[1mScanning dependencies of target _aruco_pose_generate_messages_check_deps_MarkerArray[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  3%] Built target std_msgs_generate_messages_nodejs
+[  3%] Built target _aruco_pose_generate_messages_check_deps_MarkerArray
+[35m[1mScanning dependencies of target _aruco_pose_generate_messages_check_deps_Marker[0m
+[  3%] Built target _aruco_pose_generate_messages_check_deps_Marker
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  3%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  3%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  3%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  3%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  3%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  3%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  3%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  3%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _opencv_aruco[0m
+[  7%] [32mBuilding CXX object CMakeFiles/_opencv_aruco.dir/vendor/aruco/src/apriltag_quad_thresh.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/_opencv_aruco.dir/vendor/aruco/src/aruco.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/_opencv_aruco.dir/vendor/aruco/src/charuco.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/_opencv_aruco.dir/vendor/aruco/src/dictionary.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/_opencv_aruco.dir/vendor/aruco/src/zmaxheap.cpp.o[0m
+[ 25%] [32m[1mLinking CXX static library lib_opencv_aruco.a[0m
+[ 25%] Built target _opencv_aruco
+[35m[1mScanning dependencies of target aruco_pose_generate_messages_nodejs[0m
+[ 28%] [34m[1mGenerating Javascript code from aruco_pose/Point2D.msg[0m
+[ 32%] [34m[1mGenerating Javascript code from aruco_pose/Marker.msg[0m
+[ 35%] [34m[1mGenerating Javascript code from aruco_pose/MarkerArray.msg[0m
+[ 35%] Built target aruco_pose_generate_messages_nodejs
+[35m[1mScanning dependencies of target aruco_pose_generate_messages_py[0m
+[ 39%] [34m[1mGenerating Python from MSG aruco_pose/Point2D[0m
+[ 42%] [34m[1mGenerating Python from MSG aruco_pose/Marker[0m
+[ 46%] [34m[1mGenerating Python from MSG aruco_pose/MarkerArray[0m
+[ 50%] [34m[1mGenerating Python msg __init__.py for aruco_pose[0m
+[ 50%] Built target aruco_pose_generate_messages_py
+[35m[1mScanning dependencies of target aruco_pose_generate_messages_lisp[0m
+[ 53%] [34m[1mGenerating Lisp code from aruco_pose/Point2D.msg[0m
+[ 57%] [34m[1mGenerating Lisp code from aruco_pose/Marker.msg[0m
+[ 60%] [34m[1mGenerating Lisp code from aruco_pose/MarkerArray.msg[0m
+[ 60%] Built target aruco_pose_generate_messages_lisp
+[35m[1mScanning dependencies of target aruco_pose_generate_messages_eus[0m
+[ 64%] [34m[1mGenerating EusLisp code from aruco_pose/Point2D.msg[0m
+[ 67%] [34m[1mGenerating EusLisp code from aruco_pose/Marker.msg[0m
+[ 71%] [34m[1mGenerating EusLisp code from aruco_pose/MarkerArray.msg[0m
+[ 75%] [34m[1mGenerating EusLisp manifest code for aruco_pose[0m
+[ 75%] Built target aruco_pose_generate_messages_eus
+[35m[1mScanning dependencies of target aruco_pose_generate_messages_cpp[0m
+[ 78%] [34m[1mGenerating C++ code from aruco_pose/Point2D.msg[0m
+[ 82%] [34m[1mGenerating C++ code from aruco_pose/Marker.msg[0m
+[ 85%] [34m[1mGenerating C++ code from aruco_pose/MarkerArray.msg[0m
+[ 85%] Built target aruco_pose_generate_messages_cpp
+[35m[1mScanning dependencies of target aruco_pose_generate_messages[0m
+[ 85%] Built target aruco_pose_generate_messages
+[35m[1mScanning dependencies of target aruco_pose[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/aruco_pose.dir/src/aruco_detect.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/aruco_pose.dir/src/aruco_map.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/aruco_pose.dir/src/draw.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/rajendra/drone_ws/devel/.private/aruco_pose/lib/libaruco_pose.so[0m
+[100%] Built target aruco_pose

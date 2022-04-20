@@ -1,0 +1,4 @@
+Symlinking /home/rajendra/drone_ws/devel/share/ksql_airport/cmake/ksql_airportConfig-version.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/ksql_airport/cmake/ksql_airportConfig.cmake
+Symlinking /home/rajendra/drone_ws/devel/etc/catkin/profile.d/99_ksql_airport_setup.sh
+Symlinking /home/rajendra/drone_ws/devel/lib/pkgconfig/ksql_airport.pc

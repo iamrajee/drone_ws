@@ -1,0 +1,39 @@
+mode1: 
+    axes_map:
+        roll: 4
+        pitch: 1
+        yaw: 0
+        throttle: 3
+    
+    axes_scale:
+        roll: 1.0
+        pitch: 1.0
+        yaw: 1.0
+        throttle: 1.0
+    
+    button_map:
+        arm: 0
+        disarm: 1
+        takeoff: 2
+        land: 3
+        enable: 4
+
+mode2: 
+    axes_map:
+        roll: 3
+        pitch: 4
+        yaw: 0
+        throttle: 1
+    
+    axes_scale:
+        roll: 1.0
+        pitch: 1.0
+        yaw: 1.0
+        throttle: 1.0
+    
+    button_map:
+        arm: 0
+        disarm: 1
+        takeoff: 2
+        land: 3
+        enable: 4

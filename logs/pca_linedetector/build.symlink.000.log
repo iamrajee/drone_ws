@@ -1,0 +1,8 @@
+Symlinking /home/rajendra/drone_ws/devel/share/roseus/ros/pca_linedetector/manifest.l
+Symlinking /home/rajendra/drone_ws/devel/share/pca_linedetector/cmake/pca_linedetector-msg-extras.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/pca_linedetector/cmake/pca_linedetector-msg-paths.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/pca_linedetector/cmake/pca_linedetectorConfig-version.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/pca_linedetector/cmake/pca_linedetectorConfig.cmake
+Symlinking /home/rajendra/drone_ws/devel/lib/python3/dist-packages/pca_linedetector/__init__.py
+Symlinking /home/rajendra/drone_ws/devel/lib/pkgconfig/pca_linedetector.pc
+Symlinking /home/rajendra/drone_ws/devel/lib/pca_linedetector/pcadetector_node

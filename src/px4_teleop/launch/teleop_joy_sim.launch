@@ -1,0 +1,22 @@
+<launch>
+
+    <!-- Arguments -->
+    <arg name="joy_dev" default="/dev/input/js0"/>
+    <arg name="joy_binding_path" default="$(find px4_teleop)/config/f310_binding.yaml"/>
+    <arg name="joy_config_path" default="$(find px4_teleop)/config/f310.yaml"/>
+    <arg name="joy_rc_mode" default="1"/>
+    <arg name="takeoff_height" default="2.0"/>
+    <arg name="mav_frame" default="BODY_NED" />
+
+    <node name="joy_publisher" pkg="joy" type="joy_node" output="screen"/>
+
+    <param name="/mavros/setpoint_velocity/mav_frame"  type="str" value="$(arg mav_frame)" />
+    <node name="px4_teleop_joy" pkg="px4_teleop" type="px4_teleop_joy" output="screen">
+        <param name="joy_config_path" type="str" value="$(arg joy_config_path)"/>
+        <param name="joy_rc_mode" type="int" value="$(arg joy_rc_mode)"/>
+        <param name="takeoff_height" type="double" value="$(arg takeoff_height)"/>
+    </node>
+
+</launch>
+
+<!-- vim: set et ft=xml fenc=utf-8 ff=unix sts=0 sw=4 ts=4 : -->

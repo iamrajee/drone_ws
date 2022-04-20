@@ -1,0 +1,4 @@
+Symlinking /home/rajendra/drone_ws/devel/share/mavlink_serial_client/cmake/mavlink_serial_clientConfig-version.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/mavlink_serial_client/cmake/mavlink_serial_clientConfig.cmake
+Symlinking /home/rajendra/drone_ws/devel/lib/pkgconfig/mavlink_serial_client.pc
+Symlinking /home/rajendra/drone_ws/devel/lib/mavlink_serial_client/mavlink_serial_client

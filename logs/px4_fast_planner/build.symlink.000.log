@@ -1,0 +1,3 @@
+Symlinking /home/rajendra/drone_ws/devel/share/px4_fast_planner/cmake/px4_fast_plannerConfig-version.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/px4_fast_planner/cmake/px4_fast_plannerConfig.cmake
+Symlinking /home/rajendra/drone_ws/devel/lib/pkgconfig/px4_fast_planner.pc

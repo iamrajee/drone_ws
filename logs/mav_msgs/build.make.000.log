@@ -1,0 +1,90 @@
+[35m[1mScanning dependencies of target _mav_msgs_generate_messages_check_deps_Status[0m
+[  0%] Built target _mav_msgs_generate_messages_check_deps_Status
+[35m[1mScanning dependencies of target _mav_msgs_generate_messages_check_deps_GpsWaypoint[0m
+[  0%] Built target _mav_msgs_generate_messages_check_deps_GpsWaypoint
+[35m[1mScanning dependencies of target _mav_msgs_generate_messages_check_deps_RateThrust[0m
+[  0%] Built target _mav_msgs_generate_messages_check_deps_RateThrust
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target _mav_msgs_generate_messages_check_deps_FilteredSensorData[0m
+[  0%] Built target _mav_msgs_generate_messages_check_deps_FilteredSensorData
+[35m[1mScanning dependencies of target _mav_msgs_generate_messages_check_deps_TorqueThrust[0m
+[  0%] Built target _mav_msgs_generate_messages_check_deps_TorqueThrust
+[35m[1mScanning dependencies of target _mav_msgs_generate_messages_check_deps_Actuators[0m
+[  0%] Built target _mav_msgs_generate_messages_check_deps_Actuators
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target _mav_msgs_generate_messages_check_deps_AttitudeThrust[0m
+[  0%] Built target _mav_msgs_generate_messages_check_deps_AttitudeThrust
+[35m[1mScanning dependencies of target _mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust[0m
+[  0%] Built target _mav_msgs_generate_messages_check_deps_RollPitchYawrateThrust
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target mav_msgs_generate_messages_eus[0m
+[  2%] [34m[1mGenerating EusLisp code from mav_msgs/Actuators.msg[0m
+[  4%] [34m[1mGenerating EusLisp code from mav_msgs/AttitudeThrust.msg[0m
+[  7%] [34m[1mGenerating EusLisp code from mav_msgs/RateThrust.msg[0m
+[  9%] [34m[1mGenerating EusLisp code from mav_msgs/RollPitchYawrateThrust.msg[0m
+[ 11%] [34m[1mGenerating EusLisp code from mav_msgs/TorqueThrust.msg[0m
+[ 14%] [34m[1mGenerating EusLisp code from mav_msgs/Status.msg[0m
+[ 16%] [34m[1mGenerating EusLisp code from mav_msgs/FilteredSensorData.msg[0m
+[ 19%] [34m[1mGenerating EusLisp code from mav_msgs/GpsWaypoint.msg[0m
+[35m[1mScanning dependencies of target mav_msgs_generate_messages_py[0m
+[ 21%] [34m[1mGenerating Python from MSG mav_msgs/Actuators[0m
+[ 23%] [34m[1mGenerating EusLisp manifest code for mav_msgs[0m
+[ 26%] [34m[1mGenerating Python from MSG mav_msgs/AttitudeThrust[0m
+[ 28%] [34m[1mGenerating Python from MSG mav_msgs/RateThrust[0m
+[ 30%] [34m[1mGenerating Python from MSG mav_msgs/RollPitchYawrateThrust[0m
+[ 33%] [34m[1mGenerating Python from MSG mav_msgs/TorqueThrust[0m
+[ 33%] Built target mav_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target mav_msgs_generate_messages_nodejs[0m
+[ 35%] [34m[1mGenerating Javascript code from mav_msgs/Actuators.msg[0m
+[35m[1mScanning dependencies of target mav_msgs_generate_messages_cpp[0m
+[ 38%] [34m[1mGenerating C++ code from mav_msgs/Actuators.msg[0m
+[ 40%] [34m[1mGenerating Javascript code from mav_msgs/AttitudeThrust.msg[0m
+[ 42%] [34m[1mGenerating Python from MSG mav_msgs/Status[0m
+[ 45%] [34m[1mGenerating Javascript code from mav_msgs/RateThrust.msg[0m
+[ 47%] [34m[1mGenerating C++ code from mav_msgs/AttitudeThrust.msg[0m
+[ 50%] [34m[1mGenerating Javascript code from mav_msgs/RollPitchYawrateThrust.msg[0m
+[ 52%] [34m[1mGenerating Javascript code from mav_msgs/TorqueThrust.msg[0m
+[ 54%] [34m[1mGenerating Python from MSG mav_msgs/FilteredSensorData[0m
+[ 57%] [34m[1mGenerating C++ code from mav_msgs/RateThrust.msg[0m
+[ 59%] [34m[1mGenerating Javascript code from mav_msgs/Status.msg[0m
+[ 61%] [34m[1mGenerating Javascript code from mav_msgs/FilteredSensorData.msg[0m
+[ 66%] [34m[1mGenerating Javascript code from mav_msgs/GpsWaypoint.msg[0m
+[ 66%] [34m[1mGenerating C++ code from mav_msgs/RollPitchYawrateThrust.msg[0m
+[ 69%] [34m[1mGenerating Python from MSG mav_msgs/GpsWaypoint[0m
+[ 69%] Built target mav_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target mav_msgs_generate_messages_lisp[0m
+[ 71%] [34m[1mGenerating Lisp code from mav_msgs/Actuators.msg[0m
+[ 73%] [34m[1mGenerating Lisp code from mav_msgs/AttitudeThrust.msg[0m
+[ 76%] [34m[1mGenerating C++ code from mav_msgs/TorqueThrust.msg[0m
+[ 78%] [34m[1mGenerating Lisp code from mav_msgs/RateThrust.msg[0m
+[ 80%] [34m[1mGenerating Python msg __init__.py for mav_msgs[0m
+[ 83%] [34m[1mGenerating Lisp code from mav_msgs/RollPitchYawrateThrust.msg[0m
+[ 85%] [34m[1mGenerating Lisp code from mav_msgs/TorqueThrust.msg[0m
+[ 88%] [34m[1mGenerating C++ code from mav_msgs/Status.msg[0m
+[ 90%] [34m[1mGenerating Lisp code from mav_msgs/Status.msg[0m
+[ 92%] [34m[1mGenerating Lisp code from mav_msgs/FilteredSensorData.msg[0m
+[ 92%] Built target mav_msgs_generate_messages_py
+[ 95%] [34m[1mGenerating Lisp code from mav_msgs/GpsWaypoint.msg[0m
+[ 95%] Built target mav_msgs_generate_messages_lisp
+[ 97%] [34m[1mGenerating C++ code from mav_msgs/FilteredSensorData.msg[0m
+[100%] [34m[1mGenerating C++ code from mav_msgs/GpsWaypoint.msg[0m
+[100%] Built target mav_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target mav_msgs_generate_messages[0m
+[100%] Built target mav_msgs_generate_messages

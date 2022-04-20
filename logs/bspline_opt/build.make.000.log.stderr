@@ -1,0 +1,19 @@
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/bspline_opt/src/bspline_optimizer.cpp: In member function ‘void fast_planner::BsplineOptimizer::optimize()’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/bspline_opt/src/bspline_optimizer.cpp:181:19: warning: unused variable ‘result’ [-Wunused-variable]
+  181 |     nlopt::result result = opt.optimize(q, final_cost);
+      |                   ^~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/bspline_opt/src/bspline_optimizer.cpp: In member function ‘void fast_planner::BsplineOptimizer::calcSmoothnessCost(const std::vector<Eigen::Matrix<double, 3, 1> >&, double&, std::vector<Eigen::Matrix<double, 3, 1> >&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/bspline_opt/src/bspline_optimizer.cpp:207:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Eigen::Matrix<double, 3, 1> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  207 |   for (int i = 0; i < q.size() - order_; i++) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/bspline_opt/src/bspline_optimizer.cpp: In member function ‘void fast_planner::BsplineOptimizer::calcFeasibilityCost(const std::vector<Eigen::Matrix<double, 3, 1> >&, double&, std::vector<Eigen::Matrix<double, 3, 1> >&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/bspline_opt/src/bspline_optimizer.cpp:258:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Eigen::Matrix<double, 3, 1> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  258 |   for (int i = 0; i < q.size() - 1; i++) {
+      |                   ~~^~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/bspline_opt/src/bspline_optimizer.cpp:274:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Eigen::Matrix<double, 3, 1> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  274 |   for (int i = 0; i < q.size() - 2; i++) {
+      |                   ~~^~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/bspline_opt/src/bspline_optimizer.cpp: In member function ‘void fast_planner::BsplineOptimizer::calcWaypointsCost(const std::vector<Eigen::Matrix<double, 3, 1> >&, double&, std::vector<Eigen::Matrix<double, 3, 1> >&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/bspline_opt/src/bspline_optimizer.cpp:320:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Eigen::Matrix<double, 3, 1> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  320 |   for (int i = 0; i < waypoints_.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~

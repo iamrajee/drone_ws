@@ -1,0 +1,143 @@
+[35m[1mScanning dependencies of target fast_planner_node[0m
+[  7%] [32mBuilding CXX object CMakeFiles/fast_planner_node.dir/src/fast_planner_node.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/fast_planner_node.dir/src/kino_replan_fsm.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/fast_planner_node.dir/src/topo_replan_fsm.cpp.o[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[ 21%] Built target std_msgs_generate_messages_py
+[ 28%] [32mBuilding CXX object CMakeFiles/fast_planner_node.dir/src/planner_manager.cpp.o[0m
+[35m[1mScanning dependencies of target _plan_manage_generate_messages_check_deps_Bspline[0m
+[ 28%] Built target _plan_manage_generate_messages_check_deps_Bspline
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[ 28%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[ 28%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[ 28%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[ 28%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[ 28%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[ 28%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[ 28%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[ 28%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[ 28%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target plan_manage_generate_messages_py[0m
+[ 35%] [34m[1mGenerating Python from MSG plan_manage/Bspline[0m
+[35m[1mScanning dependencies of target plan_manage_generate_messages_nodejs[0m
+[ 42%] [34m[1mGenerating Javascript code from plan_manage/Bspline.msg[0m
+[ 42%] Built target plan_manage_generate_messages_nodejs
+[35m[1mScanning dependencies of target plan_manage_generate_messages_eus[0m
+[ 50%] [34m[1mGenerating EusLisp code from plan_manage/Bspline.msg[0m
+[ 57%] [34m[1mGenerating Python msg __init__.py for plan_manage[0m
+[ 64%] [34m[1mGenerating EusLisp manifest code for plan_manage[0m
+[ 64%] Built target plan_manage_generate_messages_py
+[35m[1mScanning dependencies of target plan_manage_generate_messages_lisp[0m
+[ 71%] [34m[1mGenerating Lisp code from plan_manage/Bspline.msg[0m
+[ 71%] Built target plan_manage_generate_messages_lisp
+[35m[1mScanning dependencies of target plan_manage_generate_messages_cpp[0m
+[ 78%] [34m[1mGenerating C++ code from plan_manage/Bspline.msg[0m
+[ 78%] Built target plan_manage_generate_messages_cpp
+[ 78%] Built target plan_manage_generate_messages_eus
+[35m[1mScanning dependencies of target plan_manage_generate_messages[0m
+[ 78%] Built target plan_manage_generate_messages
+[35m[1mScanning dependencies of target traj_server[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/traj_server.dir/src/traj_server.cpp.o[0m
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp: In function ‘void bsplineCallback(plan_manage::BsplineConstPtr)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:134:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<double>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  134 |   for (int i = 0; i < msg->knots.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:138:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<geometry_msgs::Point_<std::allocator<void> >, std::allocator<geometry_msgs::Point_<std::allocator<void> > > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  138 |   for (int i = 0; i < msg->pos_pts.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:150:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<double>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  150 |   for (int i = 0; i < msg->yaw_pts.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp: In function ‘void cmdCallback(const ros::TimerEvent&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:257:8: warning: variable ‘pos_err’ set but not used [-Wunused-but-set-variable]
+  257 |   auto pos_err = pos_f - pos;
+      |        ^~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:210:29: warning: ‘*((void*)& acc +16)’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  210 |   Eigen::Vector3d pos, vel, acc, pos_f;
+      |                             ^~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:210:24: warning: ‘*((void*)& vel +16)’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  210 |   Eigen::Vector3d pos, vel, acc, pos_f;
+      |                        ^~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:255:15: warning: ‘yawdot’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  255 |   cmd.yaw_dot = yawdot;
+      |   ~~~~~~~~~~~~^~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:211:10: warning: ‘yaw’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  211 |   double yaw, yawdot;
+      |          ^~~
+[ 92%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/plan_manage/lib/plan_manage/traj_server[0m
+[ 92%] Built target traj_server
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/kino_replan_fsm.cpp: In member function ‘void fast_planner::KinoReplanFSM::execFSMCallback(const ros::TimerEvent&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/kino_replan_fsm.cpp:133:10: warning: enumeration value ‘REPLAN_NEW’ not handled in switch [-Wswitch]
+  133 |   switch (exec_state_) {
+      |          ^
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/kino_replan_fsm.cpp: In member function ‘void fast_planner::KinoReplanFSM::checkCollisionCallback(const ros::TimerEvent&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/kino_replan_fsm.cpp:242:23: warning: unused variable ‘new_goal’ [-Wunused-variable]
+  242 |       bool            new_goal = false;
+      |                       ^~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/topo_replan_fsm.cpp: In member function ‘void fast_planner::TopoReplanFSM::execFSMCallback(const ros::TimerEvent&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/topo_replan_fsm.cpp:219:25: warning: variable ‘start_pos’ set but not used [-Wunused-but-set-variable]
+  219 |         Eigen::Vector3d start_pos = info->start_pos_;
+      |                         ^~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/topo_replan_fsm.cpp: In member function ‘void fast_planner::TopoReplanFSM::checkCollisionCallback(const ros::TimerEvent&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/topo_replan_fsm.cpp:299:20: warning: unused variable ‘new_goal’ [-Wunused-variable]
+  299 |       bool         new_goal = false;
+      |                    ^~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/topo_replan_fsm.cpp: In member function ‘bool fast_planner::TopoReplanFSM::callSearchAndOptimization()’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/topo_replan_fsm.cpp:372:50: warning: no return statement in function returning non-void [-Wreturn-type]
+  372 | bool TopoReplanFSM::callSearchAndOptimization() {}
+      |                                                  ^
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp: In member function ‘void fast_planner::FastPlannerManager::initPlanModules(ros::NodeHandle&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:49:83: warning: unused variable ‘use_active_perception’ [-Wunused-variable]
+   49 |   bool use_geometric_path, use_kinodynamic_path, use_topo_path, use_optimization, use_active_perception;
+      |                                                                                   ^~~~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp: In member function ‘bool fast_planner::FastPlannerManager::kinodynamicReplan(Eigen::Vector3d, Eigen::Vector3d, Eigen::Vector3d, Eigen::Vector3d, Eigen::Vector3d)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:146:19: warning: variable ‘init_pos’ set but not used [-Wunused-but-set-variable]
+  146 |   Eigen::Vector3d init_pos = start_pt;
+      |                   ^~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:147:19: warning: variable ‘init_vel’ set but not used [-Wunused-but-set-variable]
+  147 |   Eigen::Vector3d init_vel = start_vel;
+      |                   ^~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:148:19: warning: variable ‘init_acc’ set but not used [-Wunused-but-set-variable]
+  148 |   Eigen::Vector3d init_acc = start_acc;
+      |                   ^~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp: In member function ‘bool fast_planner::FastPlannerManager::planGlobalTraj(const Vector3d&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:266:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Eigen::Matrix<double, 3, 1> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  266 |   for (int i = 0; i < points.size() - 1; ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp: In member function ‘bool fast_planner::FastPlannerManager::topoReplan(bool)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:377:25: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  377 |       for (int i = 0; i < select_paths.size(); ++i) {
+      |                       ~~^~~~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:383:25: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  383 |       for (int i = 0; i < select_paths.size(); ++i) optimize_threads[i].join();
+      |                       ~~^~~~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp: In member function ‘void fast_planner::FastPlannerManager::refineTraj(fast_planner::NonUniformBspline&, double&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:411:13: warning: unused variable ‘max_iter’ [-Wunused-variable]
+  411 |   const int max_iter = 1;
+      |             ^~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp: In member function ‘void fast_planner::FastPlannerManager::reparamBspline(fast_planner::NonUniformBspline&, double, Eigen::MatrixXd&, double&, double&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:439:10: warning: unused variable ‘prev_num’ [-Wunused-variable]
+  439 |   int    prev_num    = bspline.getControlPoint().rows();
+      |          ^~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp: In member function ‘void fast_planner::FastPlannerManager::optimizeTopoBspline(double, double, std::vector<Eigen::Matrix<double, 3, 1> >, int)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:484:23: warning: comparison of integer expressions of different signedness: ‘std::vector<Eigen::Matrix<double, 3, 1> >::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  484 |   if (guide_pt.size() != int(ctrl_pts.rows()) - 6) ROS_WARN("what guide");
+      |       ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp: In member function ‘void fast_planner::FastPlannerManager::planYaw(const Vector3d&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:671:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Eigen::Matrix<double, 3, 1> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  671 |   for (int i = 0; i < waypts.size(); ++i) path_yaw.push_back(waypts[i][0]);
+      |                   ~~^~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp: In member function ‘void fast_planner::FastPlannerManager::findCollisionRange(std::vector<Eigen::Matrix<double, 3, 1> >&, std::vector<Eigen::Matrix<double, 3, 1> >&, std::vector<Eigen::Matrix<double, 3, 1> >&, std::vector<Eigen::Matrix<double, 3, 1> >&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/plan_manage/src/planner_manager.cpp:587:19: warning: ‘t_e’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  587 |   sn = ceil((t_mp - t_e) / dt);
+      |             ~~~~~~^~~~~~
+[100%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/plan_manage/lib/plan_manage/fast_planner_node[0m
+[100%] Built target fast_planner_node

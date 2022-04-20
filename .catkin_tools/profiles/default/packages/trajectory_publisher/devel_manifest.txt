@@ -1,0 +1,6 @@
+mavros_controllers/trajectory_publisher
+/home/rajendra/drone_ws/devel/.private/trajectory_publisher/cmake.lock /home/rajendra/drone_ws/devel/./cmake.lock
+/home/rajendra/drone_ws/devel/.private/trajectory_publisher/share/trajectory_publisher/cmake/trajectory_publisherConfig.cmake /home/rajendra/drone_ws/devel/share/trajectory_publisher/cmake/trajectory_publisherConfig.cmake
+/home/rajendra/drone_ws/devel/.private/trajectory_publisher/share/trajectory_publisher/cmake/trajectory_publisherConfig-version.cmake /home/rajendra/drone_ws/devel/share/trajectory_publisher/cmake/trajectory_publisherConfig-version.cmake
+/home/rajendra/drone_ws/devel/.private/trajectory_publisher/lib/trajectory_publisher/trajectory_publisher /home/rajendra/drone_ws/devel/lib/trajectory_publisher/trajectory_publisher
+/home/rajendra/drone_ws/devel/.private/trajectory_publisher/lib/pkgconfig/trajectory_publisher.pc /home/rajendra/drone_ws/devel/lib/pkgconfig/trajectory_publisher.pc

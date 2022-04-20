@@ -1,0 +1,46 @@
+[35m[1mScanning dependencies of target poly_traj[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/poly_traj.dir/src/polynomial_traj.cpp.o[0m
+In file included from /home/rajendra/drone_ws/src/Fast-Planner/fast_planner/poly_traj/src/polynomial_traj.cpp:27:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h: In member function ‘void PolynomialTraj::init()’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h:66:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<double>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   66 |     for (int i = 0; i < times.size(); ++i) {
+      |                     ~~^~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h: In member function ‘double PolynomialTraj::getLength()’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h:168:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Eigen::Matrix<double, 3, 1> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  168 |     for (int i = 1; i < traj_vec3d.size(); ++i) {
+      |                     ~~^~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h: In member function ‘double PolynomialTraj::getMeanVel()’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h:177:12: warning: unused variable ‘mean_vel’ [-Wunused-variable]
+  177 |     double mean_vel = length / time_sum;
+      |            ^~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h:178:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  178 |   }
+      |   ^
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h: In member function ‘double PolynomialTraj::getAccCost()’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h:184:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<double>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  184 |     for (int s = 0; s < times.size(); ++s) {
+      |                     ~~^~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h: In member function ‘double PolynomialTraj::getJerk()’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h:197:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<double>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  197 |     for (int s = 0; s < times.size(); ++s) {
+      |                     ~~^~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h: In member function ‘void PolynomialTraj::getMeanAndMaxVel(double&, double&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h:226:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<double>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  226 |     for (int s = 0; s < times.size(); ++s) {
+      |                     ~~^~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h: In member function ‘void PolynomialTraj::getMeanAndMaxAcc(double&, double&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h:260:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<double>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  260 |     for (int s = 0; s < times.size(); ++s) {
+      |                     ~~^~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/poly_traj/src/polynomial_traj.cpp: In function ‘PolynomialTraj fastLine4deg(Eigen::Vector3d, Eigen::Vector3d, double, double, double)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/poly_traj/src/polynomial_traj.cpp:201:10: warning: unused variable ‘len’ [-Wunused-variable]
+  201 |   double len = disp.norm();
+      |          ^~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/poly_traj/src/polynomial_traj.cpp:202:19: warning: variable ‘dir’ set but not used [-Wunused-but-set-variable]
+  202 |   Eigen::Vector3d dir = disp.normalized();
+      |                   ^~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/poly_traj/src/polynomial_traj.cpp:205:7: warning: variable ‘max_id’ set but not used [-Wunused-but-set-variable]
+  205 |   int max_id = -1;
+      |       ^~~~~~
+[100%] [32m[1mLinking CXX shared library /home/rajendra/drone_ws/devel/.private/poly_traj/lib/libpoly_traj.so[0m
+[100%] Built target poly_traj

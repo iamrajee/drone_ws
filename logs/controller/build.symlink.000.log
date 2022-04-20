@@ -1,0 +1,4 @@
+Symlinking /home/rajendra/drone_ws/devel/share/controller/cmake/controllerConfig-version.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/controller/cmake/controllerConfig.cmake
+Symlinking /home/rajendra/drone_ws/devel/lib/controller/controller
+Symlinking /home/rajendra/drone_ws/devel/lib/pkgconfig/controller.pc

@@ -1,0 +1,121 @@
+[35m[1mScanning dependencies of target _clover_generate_messages_check_deps_Execute[0m
+[35m[1mScanning dependencies of target _clover_generate_messages_check_deps_GetTelemetry[0m
+[  0%] Built target _clover_generate_messages_check_deps_Execute
+[  0%] Built target _clover_generate_messages_check_deps_GetTelemetry
+[35m[1mScanning dependencies of target _clover_generate_messages_check_deps_SetLEDEffect[0m
+[35m[1mScanning dependencies of target _clover_generate_messages_check_deps_SetRates[0m
+[  0%] Built target _clover_generate_messages_check_deps_SetRates
+[  0%] Built target _clover_generate_messages_check_deps_SetLEDEffect
+[35m[1mScanning dependencies of target _clover_generate_messages_check_deps_SetAttitude[0m
+[35m[1mScanning dependencies of target _clover_generate_messages_check_deps_SetVelocity[0m
+[  0%] Built target _clover_generate_messages_check_deps_SetAttitude
+[  0%] Built target _clover_generate_messages_check_deps_SetVelocity
+[35m[1mScanning dependencies of target _clover_generate_messages_check_deps_Navigate[0m
+[35m[1mScanning dependencies of target _clover_generate_messages_check_deps_SetPosition[0m
+[  0%] Built target _clover_generate_messages_check_deps_Navigate
+[  0%] Built target _clover_generate_messages_check_deps_SetPosition
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _clover_generate_messages_check_deps_NavigateGlobal[0m
+[  0%] Built target _clover_generate_messages_check_deps_NavigateGlobal
+[35m[1mScanning dependencies of target vpe_publisher[0m
+[35m[1mScanning dependencies of target clover[0m
+[  1%] [32mBuilding CXX object CMakeFiles/vpe_publisher.dir/src/vpe_publisher.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/clover.dir/src/optical_flow.cpp.o[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  3%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  3%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  3%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  3%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target camera_markers[0m
+[  4%] [32mBuilding CXX object CMakeFiles/camera_markers.dir/src/camera_markers.cpp.o[0m
+[  6%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/clover/lib/clover/camera_markers[0m
+[35m[1mScanning dependencies of target clover_rc[0m
+[  8%] [32mBuilding CXX object CMakeFiles/clover_rc.dir/src/rc.cpp.o[0m
+[  8%] Built target camera_markers
+[35m[1mScanning dependencies of target clover_generate_messages_cpp[0m
+[  9%] [34m[1mGenerating C++ code from clover/GetTelemetry.srv[0m
+[ 11%] [34m[1mGenerating C++ code from clover/Navigate.srv[0m
+[ 13%] [34m[1mGenerating C++ code from clover/NavigateGlobal.srv[0m
+[ 14%] [34m[1mGenerating C++ code from clover/SetPosition.srv[0m
+[ 16%] [34m[1mGenerating C++ code from clover/SetVelocity.srv[0m
+[ 18%] [34m[1mGenerating C++ code from clover/SetAttitude.srv[0m
+[35m[1mScanning dependencies of target clover_generate_messages_lisp[0m
+[ 19%] [34m[1mGenerating Lisp code from clover/GetTelemetry.srv[0m
+[ 21%] [34m[1mGenerating Lisp code from clover/Navigate.srv[0m
+[ 22%] [34m[1mGenerating C++ code from clover/SetRates.srv[0m
+[ 24%] [34m[1mGenerating Lisp code from clover/NavigateGlobal.srv[0m
+[ 26%] [34m[1mGenerating Lisp code from clover/SetPosition.srv[0m
+[ 27%] [34m[1mGenerating Lisp code from clover/SetVelocity.srv[0m
+[ 29%] [34m[1mGenerating Lisp code from clover/SetAttitude.srv[0m
+[ 31%] [34m[1mGenerating C++ code from clover/SetLEDEffect.srv[0m
+[ 32%] [34m[1mGenerating Lisp code from clover/SetRates.srv[0m
+[ 34%] [34m[1mGenerating Lisp code from clover/SetLEDEffect.srv[0m
+[ 36%] [34m[1mGenerating Lisp code from clover/Execute.srv[0m
+[ 36%] Built target clover_generate_messages_lisp
+[35m[1mScanning dependencies of target clover_generate_messages_nodejs[0m
+[ 37%] [34m[1mGenerating Javascript code from clover/GetTelemetry.srv[0m
+[ 39%] [34m[1mGenerating C++ code from clover/Execute.srv[0m
+[ 40%] [34m[1mGenerating Javascript code from clover/Navigate.srv[0m
+[ 42%] [34m[1mGenerating Javascript code from clover/NavigateGlobal.srv[0m
+[ 44%] [34m[1mGenerating Javascript code from clover/SetPosition.srv[0m
+[ 45%] [34m[1mGenerating Javascript code from clover/SetVelocity.srv[0m
+[ 45%] Built target clover_generate_messages_cpp
+[35m[1mScanning dependencies of target clover_generate_messages_eus[0m
+[ 47%] [34m[1mGenerating EusLisp code from clover/GetTelemetry.srv[0m
+[ 49%] [34m[1mGenerating Javascript code from clover/SetAttitude.srv[0m
+[ 50%] [34m[1mGenerating Javascript code from clover/SetRates.srv[0m
+[ 52%] [34m[1mGenerating EusLisp code from clover/Navigate.srv[0m
+[ 54%] [34m[1mGenerating Javascript code from clover/SetLEDEffect.srv[0m
+[ 55%] [34m[1mGenerating Javascript code from clover/Execute.srv[0m
+[ 57%] [34m[1mGenerating EusLisp code from clover/NavigateGlobal.srv[0m
+[ 57%] Built target clover_generate_messages_nodejs
+[35m[1mScanning dependencies of target clover_generate_messages_py[0m
+[ 59%] [34m[1mGenerating Python code from SRV clover/GetTelemetry[0m
+[ 60%] [34m[1mGenerating EusLisp code from clover/SetPosition.srv[0m
+[ 62%] [34m[1mGenerating EusLisp code from clover/SetVelocity.srv[0m
+[ 63%] [34m[1mGenerating Python code from SRV clover/Navigate[0m
+[ 65%] [34m[1mGenerating EusLisp code from clover/SetAttitude.srv[0m
+[ 67%] [34m[1mGenerating EusLisp code from clover/SetRates.srv[0m
+[ 68%] [34m[1mGenerating Python code from SRV clover/NavigateGlobal[0m
+[ 70%] [34m[1mGenerating EusLisp code from clover/SetLEDEffect.srv[0m
+[ 72%] [34m[1mGenerating EusLisp code from clover/Execute.srv[0m
+[ 73%] [34m[1mGenerating Python code from SRV clover/SetPosition[0m
+[ 75%] [34m[1mGenerating EusLisp manifest code for clover[0m
+[ 77%] [34m[1mGenerating Python code from SRV clover/SetVelocity[0m
+[ 78%] [34m[1mGenerating Python code from SRV clover/SetAttitude[0m
+[ 80%] [34m[1mGenerating Python code from SRV clover/SetRates[0m
+[ 81%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/clover/lib/clover/vpe_publisher[0m
+[ 83%] [34m[1mGenerating Python code from SRV clover/SetLEDEffect[0m
+[ 83%] Built target vpe_publisher
+[35m[1mScanning dependencies of target clover_led[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/clover_led.dir/src/led.cpp.o[0m
+[ 86%] [34m[1mGenerating Python code from SRV clover/Execute[0m
+[ 86%] Built target clover_generate_messages_eus
+[35m[1mScanning dependencies of target shell[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/shell.dir/src/shell.cpp.o[0m
+[ 90%] [34m[1mGenerating Python srv __init__.py for clover[0m
+[ 90%] Built target clover_generate_messages_py
+[35m[1mScanning dependencies of target simple_offboard[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/simple_offboard.dir/src/simple_offboard.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/clover/lib/clover/rc[0m
+[35m[1mScanning dependencies of target clover_generate_messages[0m
+[ 93%] Built target clover_generate_messages
+[ 93%] Built target clover_rc
+[01m[K/home/rajendra/drone_ws/src/clover/clover/src/led.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Kled_msgs/SetLEDs.h: No such file or directory
+   19 | #include [01;31m[K<led_msgs/SetLEDs.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/clover_led.dir/build.make:82: CMakeFiles/clover_led.dir/src/led.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/clover_led.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 95%] [32m[1mLinking CXX shared library /home/rajendra/drone_ws/devel/.private/clover/lib/libclover.so[0m
+[ 95%] Built target clover
+[ 96%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/clover/lib/clover/shell[0m
+[ 96%] Built target shell
+[ 98%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/clover/lib/clover/simple_offboard[0m
+[ 98%] Built target simple_offboard
+make: *** [Makefile:160: all] Error 2

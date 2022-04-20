@@ -1,0 +1,109 @@
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target px_comm_generate_messages_py[0m
+[  0%] Built target px_comm_generate_messages_py
+[35m[1mScanning dependencies of target px_comm_generate_messages_nodejs[0m
+[  0%] Built target px_comm_generate_messages_nodejs
+[35m[1mScanning dependencies of target px_comm_generate_messages_lisp[0m
+[  0%] Built target px_comm_generate_messages_lisp
+[35m[1mScanning dependencies of target px_comm_generate_messages_eus[0m
+[  0%] Built target px_comm_generate_messages_eus
+[35m[1mScanning dependencies of target px_comm_generate_messages_cpp[0m
+[  0%] Built target px_comm_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target _hemd_generate_messages_check_deps_quadstate[0m
+[  0%] Built target _hemd_generate_messages_check_deps_quadstate
+[35m[1mScanning dependencies of target _hemd_generate_messages_check_deps_line[0m
+[  0%] Built target _hemd_generate_messages_check_deps_line
+[35m[1mScanning dependencies of target _hemd_generate_messages_check_deps_markerInfo[0m
+[  0%] Built target _hemd_generate_messages_check_deps_markerInfo
+[35m[1mScanning dependencies of target main[0m
+[  4%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/main.dir/src/ekf.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/main.dir/src/sonar.cpp.o[0m
+[35m[1mScanning dependencies of target hemd_generate_messages_py[0m
+[ 16%] [34m[1mGenerating Python from MSG hemd/markerInfo[0m
+[ 20%] [34m[1mGenerating Python from MSG hemd/line[0m
+[ 25%] [34m[1mGenerating Python from MSG hemd/quadstate[0m
+[ 29%] [34m[1mGenerating Python msg __init__.py for hemd[0m
+[ 29%] Built target hemd_generate_messages_py
+[35m[1mScanning dependencies of target hemd_generate_messages_nodejs[0m
+[ 33%] [34m[1mGenerating Javascript code from hemd/markerInfo.msg[0m
+[ 37%] [34m[1mGenerating Javascript code from hemd/line.msg[0m
+[ 41%] [34m[1mGenerating Javascript code from hemd/quadstate.msg[0m
+[ 41%] Built target hemd_generate_messages_nodejs
+[35m[1mScanning dependencies of target hemd_generate_messages_eus[0m
+[ 45%] [34m[1mGenerating EusLisp code from hemd/markerInfo.msg[0m
+[ 50%] [34m[1mGenerating EusLisp code from hemd/line.msg[0m
+[ 54%] [34m[1mGenerating EusLisp code from hemd/quadstate.msg[0m
+[ 58%] [34m[1mGenerating EusLisp manifest code for hemd[0m
+[35m[1mScanning dependencies of target hemd_generate_messages_cpp[0m
+[ 62%] [34m[1mGenerating C++ code from hemd/markerInfo.msg[0m
+[ 66%] [34m[1mGenerating C++ code from hemd/line.msg[0m
+[ 70%] [34m[1mGenerating C++ code from hemd/quadstate.msg[0m
+[ 70%] Built target hemd_generate_messages_cpp
+[35m[1mScanning dependencies of target hemd_generate_messages_lisp[0m
+[ 75%] [34m[1mGenerating Lisp code from hemd/markerInfo.msg[0m
+[ 75%] Built target hemd_generate_messages_eus
+[ 79%] [34m[1mGenerating Lisp code from hemd/line.msg[0m
+[ 83%] [34m[1mGenerating Lisp code from hemd/quadstate.msg[0m
+[ 83%] Built target hemd_generate_messages_lisp
+[35m[1mScanning dependencies of target hemd_generate_messages[0m
+[35m[1mScanning dependencies of target qr[0m
+[ 83%] Built target hemd_generate_messages
+[ 87%] [32mBuilding CXX object CMakeFiles/qr.dir/src/marker.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/qr.dir/src/qr.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/hemd/lib/hemd/main[0m
+[ 95%] Built target main
+[100%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/hemd/lib/hemd/qr[0m
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.2, needed by /opt/ros/noetic/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.3.4
+/usr/bin/ld: warning: libopencv_imgproc.so.3.4, needed by /usr/local/lib/libopencv_imgcodecs.so.3.4.6, may conflict with libopencv_imgproc.so.4.2
+/usr/bin/ld: warning: libopencv_core.so.3.4, needed by /usr/local/lib/libopencv_imgcodecs.so.3.4.6, may conflict with libopencv_core.so.4.2
+[100%] Built target qr

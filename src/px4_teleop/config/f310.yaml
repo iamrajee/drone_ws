@@ -1,0 +1,46 @@
+# Logitech F310 controller
+# D<>X button (located on the back panel) must be set to D
+# Mode button must not be selected (LED is off)
+mode1:
+    axes_map:
+        roll: 2
+        pitch: 3
+        yaw: 0
+        throttle: 1
+
+    axes_scale:
+        roll: 1.0
+        pitch: 1.0
+        yaw: 1.0
+        throttle: 1.0
+
+    button_map:
+        deadman: 7
+        arm: 0
+        disarm: 1
+        takeoff: 2
+        land: 3
+        enable: 4
+        exit: 6
+
+mode2:
+    axes_map:
+        roll: 1
+        pitch: 3
+        yaw: 0
+        throttle: 4
+
+    axes_scale:
+        roll: 1.0
+        pitch: 1.0
+        yaw: 1.0
+        throttle: 1.0
+
+    button_map:
+        deadman: 7
+        arm: 0
+        disarm: 1
+        takeoff: 2
+        land: 3
+        enable: 4
+        exit: 6

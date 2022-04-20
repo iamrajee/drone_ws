@@ -1,0 +1,3 @@
+[ 33%] Built target uav_waypoint
+[ 66%] Built target uav_take_off
+[100%] Built target uav_motion_primitive

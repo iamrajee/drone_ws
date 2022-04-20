@@ -1,0 +1,4 @@
+Symlinking /home/rajendra/drone_ws/devel/share/yosemite_valley/cmake/yosemite_valleyConfig-version.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/yosemite_valley/cmake/yosemite_valleyConfig.cmake
+Symlinking /home/rajendra/drone_ws/devel/etc/catkin/profile.d/99_yosemite_valley_setup.sh
+Symlinking /home/rajendra/drone_ws/devel/lib/pkgconfig/yosemite_valley.pc

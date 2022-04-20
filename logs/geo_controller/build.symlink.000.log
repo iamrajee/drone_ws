@@ -1,0 +1,4 @@
+Symlinking /home/rajendra/drone_ws/devel/share/geo_controller/cmake/geo_controllerConfig-version.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/geo_controller/cmake/geo_controllerConfig.cmake
+Symlinking /home/rajendra/drone_ws/devel/lib/libgeo_controller.so
+Symlinking /home/rajendra/drone_ws/devel/lib/pkgconfig/geo_controller.pc

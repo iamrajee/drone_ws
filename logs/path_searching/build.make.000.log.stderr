@@ -1,0 +1,153 @@
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp: In member function ‘int fast_planner::Astar::search(Eigen::Vector3d, Eigen::Vector3d, bool, double)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp:153:18: warning: unused variable ‘time_to_goal’ [-Wunused-variable]
+  153 |           double time_to_goal, tmp_g_score, tmp_f_score;
+      |                  ^~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp:49:10: warning: unused variable ‘time_to_goal’ [-Wunused-variable]
+   49 |   double time_to_goal;
+      |          ^~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp:67:11: warning: unused variable ‘neighbor’ [-Wunused-variable]
+   67 |   NodePtr neighbor = NULL;
+      |           ^~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp: In member function ‘std::vector<Eigen::Matrix<double, 3, 1> > fast_planner::Astar::getPath()’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp:230:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<fast_planner::Node*>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  230 |   for (int i = 0; i < path_nodes_.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp: In member function ‘int fast_planner::Astar::timeToIndex(double)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp:328:7: warning: unused variable ‘idx’ [-Wunused-variable]
+  328 |   int idx = floor((time - time_origin_) * inv_time_resolution_);
+      |       ^~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp:329:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  329 | }
+      | ^
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp: In member function ‘double fast_planner::Astar::getDiagHeu(Eigen::Vector3d, Eigen::Vector3d)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp:256:25: warning: ‘h’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  256 |   return tie_breaker_ * h;
+      |                         ^
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp: In member function ‘int fast_planner::Astar::search(Eigen::Vector3d, Eigen::Vector3d, bool, double)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp:132:37: warning: ‘pro_t’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  132 |           int pro_t_id = timeToIndex(pro_t);
+      |                          ~~~~~~~~~~~^~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/kinodynamic_astar.cpp: In member function ‘int fast_planner::KinodynamicAstar::search(Eigen::Vector3d, Eigen::Vector3d, Eigen::Vector3d, Eigen::Vector3d, Eigen::Vector3d, bool, bool, double)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/kinodynamic_astar.cpp:171:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Eigen::Matrix<double, 3, 1> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  171 |     for (int i = 0; i < inputs.size(); ++i)
+      |                     ~~^~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/kinodynamic_astar.cpp:172:25: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<double>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  172 |       for (int j = 0; j < durations.size(); ++j)
+      |                       ~~^~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/kinodynamic_astar.cpp:239:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<fast_planner::PathNode*>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  239 |         for (int j = 0; j < tmp_expand_nodes.size(); ++j)
+      |                         ~~^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/kinodynamic_astar.cpp:77:15: warning: unused variable ‘neighbor’ [-Wunused-variable]
+   77 |   PathNodePtr neighbor = NULL;
+      |               ^~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/kinodynamic_astar.cpp: In member function ‘int fast_planner::KinodynamicAstar::timeToIndex(double)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/kinodynamic_astar.cpp:767:7: warning: unused variable ‘idx’ [-Wunused-variable]
+  767 |   int idx = floor((time - time_origin_) * inv_time_resolution_);
+      |       ^~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/kinodynamic_astar.cpp:768:1: warning: no return statement in function returning non-void [-Wreturn-type]
+  768 | }
+      | ^
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp: In member function ‘bool fast_planner::TopologyPRM::needConnection(fast_planner::GraphNode::Ptr, fast_planner::GraphNode::Ptr, Eigen::Vector3d)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:238:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::shared_ptr<fast_planner::GraphNode> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  238 |   for (int i = 0; i < g1->neighbors_.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:239:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::shared_ptr<fast_planner::GraphNode> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  239 |     for (int j = 0; j < g2->neighbors_.size(); ++j) {
+      |                     ~~^~~~~~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:237:8: warning: unused variable ‘has_connect’ [-Wunused-variable]
+  237 |   bool has_connect = false;
+      |        ^~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp: In member function ‘std::vector<std::vector<Eigen::Matrix<double, 3, 1> > > fast_planner::TopologyPRM::pruneEquivalent(std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:327:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  327 |   for (int i = 1; i < paths.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:331:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  331 |     for (int j = 0; j < exist_paths_id.size(); ++j) {
+      |                     ~~^~~~~~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:347:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  347 |   for (int i = 0; i < exist_paths_id.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp: In member function ‘std::vector<std::vector<Eigen::Matrix<double, 3, 1> > > fast_planner::TopologyPRM::selectShortPaths(std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&, int)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:382:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  382 |   for (int i = 0; i < short_paths.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:386:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  386 |   for (int i = 0; i < short_paths.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp: In member function ‘int fast_planner::TopologyPRM::shortestPath(std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:424:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  424 |   for (int i = 0; i < paths.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp: In member function ‘double fast_planner::TopologyPRM::pathLength(const std::vector<Eigen::Matrix<double, 3, 1> >&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:437:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Eigen::Matrix<double, 3, 1> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  437 |   for (int i = 0; i < path.size() - 1; ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp: In member function ‘std::vector<Eigen::Matrix<double, 3, 1> > fast_planner::TopologyPRM::discretizePath(const std::vector<Eigen::Matrix<double, 3, 1> >&, int)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:447:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Eigen::Matrix<double, 3, 1> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  447 |   for (int i = 0; i < path.size() - 1; ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:463:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<double>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  463 |     for (int j = 0; j < len_list.size() - 1; ++j) {
+      |                     ~~^~~~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp: In member function ‘void fast_planner::TopologyPRM::shortcutPath(std::vector<Eigen::Matrix<double, 3, 1> >, int, int)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:502:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Eigen::Matrix<double, 3, 1> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  502 |     for (int i = 1; i < dis_path.size(); ++i) {
+      |                     ~~^~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp: In member function ‘void fast_planner::TopologyPRM::shortcutPaths()’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:536:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  536 |     for (int i = 0; i < raw_paths_.size(); ++i) {
+      |                     ~~^~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:539:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  539 |     for (int i = 0; i < raw_paths_.size(); ++i) {
+      |                     ~~^~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:543:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  543 |     for (int i = 0; i < raw_paths_.size(); ++i) shortcutPath(raw_paths_[i], i);
+      |                     ~~^~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp: In member function ‘std::vector<Eigen::Matrix<double, 3, 1> > fast_planner::TopologyPRM::discretizePath(std::vector<Eigen::Matrix<double, 3, 1> >)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:570:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Eigen::Matrix<double, 3, 1> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  570 |   for (int i = 0; i < path.size() - 1; ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:576:11: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Eigen::Matrix<double, 3, 1> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  576 |     if (i != path.size() - 2) dis_path.pop_back();
+      |         ~~^~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp: In member function ‘std::vector<std::vector<Eigen::Matrix<double, 3, 1> > > fast_planner::TopologyPRM::discretizePaths(std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:585:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  585 |   for (int i = 0; i < path.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp: In member function ‘Eigen::Vector3d fast_planner::TopologyPRM::getOrthoPoint(const std::vector<Eigen::Matrix<double, 3, 1> >&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:605:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Eigen::Matrix<double, 3, 1> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  605 |   for (int i = 1; i < path.size() - 1; ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp: In member function ‘std::vector<std::vector<Eigen::Matrix<double, 3, 1> > > fast_planner::TopologyPRM::searchPaths()’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:630:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  630 |   for (int i = 0; i < raw_paths_.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:640:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<int>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  640 |     for (int j = 0; j < path_list[i].size(); ++j) {
+      |                     ~~^~~~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:642:35: warning: comparison of integer expressions of different signedness: ‘std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  642 |       if (filter_raw_paths.size() >= max_raw_path2_) {
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp: In member function ‘void fast_planner::TopologyPRM::depthFirstSearch(std::vector<std::shared_ptr<fast_planner::GraphNode> >&)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:659:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::shared_ptr<fast_planner::GraphNode> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  659 |   for (int i = 0; i < cur->neighbors_.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:664:25: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::shared_ptr<fast_planner::GraphNode> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  664 |       for (int j = 0; j < vis.size(); ++j) {
+      |                       ~~^~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:670:29: warning: comparison of integer expressions of different signedness: ‘std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  670 |       if (raw_paths_.size() >= max_raw_path_) return;
+      |           ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:676:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::shared_ptr<fast_planner::GraphNode> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  676 |   for (int i = 0; i < cur->neighbors_.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:682:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::shared_ptr<fast_planner::GraphNode> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  682 |     for (int j = 0; j < vis.size(); ++j) {
+      |                     ~~^~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:693:27: warning: comparison of integer expressions of different signedness: ‘std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >::size_type’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+  693 |     if (raw_paths_.size() >= max_raw_path_) return;
+      |         ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp: In member function ‘bool fast_planner::TopologyPRM::triangleVisib(Eigen::Vector3d, Eigen::Vector3d, Eigen::Vector3d)’:
+/home/rajendra/drone_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:716:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<Eigen::Matrix<double, 3, 1> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  716 |   for (int i = 0; i < pts.size(); ++i) {
+      |                   ~~^~~~~~~~~~~~

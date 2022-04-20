@@ -1,0 +1,21 @@
+mavros/mavros
+/home/rajendra/drone_ws/devel/.private/mavros/cmake.lock /home/rajendra/drone_ws/devel/./cmake.lock
+/home/rajendra/drone_ws/devel/.private/mavros/share/mavros/cmake/mavrosConfig.cmake /home/rajendra/drone_ws/devel/share/mavros/cmake/mavrosConfig.cmake
+/home/rajendra/drone_ws/devel/.private/mavros/share/mavros/cmake/mavrosConfig-version.cmake /home/rajendra/drone_ws/devel/share/mavros/cmake/mavrosConfig-version.cmake
+/home/rajendra/drone_ws/devel/.private/mavros/lib/libmavros_plugins.so /home/rajendra/drone_ws/devel/lib/libmavros_plugins.so
+/home/rajendra/drone_ws/devel/.private/mavros/lib/libmavros.so /home/rajendra/drone_ws/devel/lib/libmavros.so
+/home/rajendra/drone_ws/devel/.private/mavros/lib/python3/dist-packages/mavros/__init__.py /home/rajendra/drone_ws/devel/lib/python3/dist-packages/mavros/__init__.py
+/home/rajendra/drone_ws/devel/.private/mavros/lib/mavros/mavsafety /home/rajendra/drone_ws/devel/lib/mavros/mavsafety
+/home/rajendra/drone_ws/devel/.private/mavros/lib/mavros/mavsys /home/rajendra/drone_ws/devel/lib/mavros/mavsys
+/home/rajendra/drone_ws/devel/.private/mavros/lib/mavros/mavparam /home/rajendra/drone_ws/devel/lib/mavros/mavparam
+/home/rajendra/drone_ws/devel/.private/mavros/lib/mavros/mavftp /home/rajendra/drone_ws/devel/lib/mavros/mavftp
+/home/rajendra/drone_ws/devel/.private/mavros/lib/mavros/install_geographiclib_datasets.sh /home/rajendra/drone_ws/devel/lib/mavros/install_geographiclib_datasets.sh
+/home/rajendra/drone_ws/devel/.private/mavros/lib/mavros/mavsetp /home/rajendra/drone_ws/devel/lib/mavros/mavsetp
+/home/rajendra/drone_ws/devel/.private/mavros/lib/mavros/mavros_node /home/rajendra/drone_ws/devel/lib/mavros/mavros_node
+/home/rajendra/drone_ws/devel/.private/mavros/lib/mavros/event_launcher /home/rajendra/drone_ws/devel/lib/mavros/event_launcher
+/home/rajendra/drone_ws/devel/.private/mavros/lib/mavros/checkid /home/rajendra/drone_ws/devel/lib/mavros/checkid
+/home/rajendra/drone_ws/devel/.private/mavros/lib/mavros/gcs_bridge /home/rajendra/drone_ws/devel/lib/mavros/gcs_bridge
+/home/rajendra/drone_ws/devel/.private/mavros/lib/mavros/mavcmd /home/rajendra/drone_ws/devel/lib/mavros/mavcmd
+/home/rajendra/drone_ws/devel/.private/mavros/lib/mavros/mavwp /home/rajendra/drone_ws/devel/lib/mavros/mavwp
+/home/rajendra/drone_ws/devel/.private/mavros/lib/mavros/cmake.lock /home/rajendra/drone_ws/devel/lib/mavros/cmake.lock
+/home/rajendra/drone_ws/devel/.private/mavros/lib/pkgconfig/mavros.pc /home/rajendra/drone_ws/devel/lib/pkgconfig/mavros.pc

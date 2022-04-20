@@ -1,0 +1,4 @@
+Symlinking /home/rajendra/drone_ws/devel/share/rtabmap_drone_example/cmake/rtabmap_drone_exampleConfig-version.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/rtabmap_drone_example/cmake/rtabmap_drone_exampleConfig.cmake
+Symlinking /home/rajendra/drone_ws/devel/lib/rtabmap_drone_example/offboard
+Symlinking /home/rajendra/drone_ws/devel/lib/pkgconfig/rtabmap_drone_example.pc

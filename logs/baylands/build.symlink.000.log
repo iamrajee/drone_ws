@@ -1,0 +1,5 @@
+Symlinking /home/rajendra/drone_ws/devel/share/baylands/cmake/baylandsConfig.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/baylands/cmake/baylandsConfig-version.cmake
+Symlinking /home/rajendra/drone_ws/devel/etc/catkin/profile.d/99_baylands_setup.sh
+Symlinking /home/rajendra/drone_ws/devel/etc/catkin/profile.d/cmake.lock
+Symlinking /home/rajendra/drone_ws/devel/lib/pkgconfig/baylands.pc

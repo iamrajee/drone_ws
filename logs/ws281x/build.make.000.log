@@ -1,0 +1,76 @@
+[35m[1mScanning dependencies of target rpi_ws281x[0m
+[  6%] [32mBuilding C object vendor/CMakeFiles/rpi_ws281x.dir/rpi_ws281x/dma.c.o[0m
+[ 12%] [32mBuilding C object vendor/CMakeFiles/rpi_ws281x.dir/rpi_ws281x/mailbox.c.o[0m
+[ 18%] [32mBuilding C object vendor/CMakeFiles/rpi_ws281x.dir/rpi_ws281x/pcm.c.o[0m
+[ 25%] [32mBuilding C object vendor/CMakeFiles/rpi_ws281x.dir/rpi_ws281x/pwm.c.o[0m
+[ 31%] [32mBuilding C object vendor/CMakeFiles/rpi_ws281x.dir/rpi_ws281x/rpihw.c.o[0m
+[ 37%] [32mBuilding C object vendor/CMakeFiles/rpi_ws281x.dir/rpi_ws281x/ws2811.c.o[0m
+[ 43%] [32m[1mLinking C static library /home/rajendra/drone_ws/devel/.private/ws281x/lib/librpi_ws281x.a[0m
+[ 43%] Built target rpi_ws281x
+[35m[1mScanning dependencies of target _ws281x_generate_messages_check_deps_SetGamma[0m
+[ 43%] Built target _ws281x_generate_messages_check_deps_SetGamma
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[ 43%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[ 43%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[ 43%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[ 43%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[ 43%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[ 43%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[ 43%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[ 43%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[ 43%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[ 43%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[ 43%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[ 43%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target led_msgs_generate_messages_eus[0m
+[ 43%] Built target led_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[ 43%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[ 43%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target led_msgs_generate_messages_cpp[0m
+[ 43%] Built target led_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target led_msgs_generate_messages_lisp[0m
+[ 43%] Built target led_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target led_msgs_generate_messages_nodejs[0m
+[ 43%] Built target led_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target led_msgs_generate_messages_py[0m
+[ 43%] Built target led_msgs_generate_messages_py
+[35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[ 43%] Built target _catkin_empty_exported_target
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[ 43%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target ws281x_generate_messages_cpp[0m
+[ 50%] [34m[1mGenerating C++ code from ws281x/SetGamma.srv[0m
+[ 50%] Built target ws281x_generate_messages_cpp
+[35m[1mScanning dependencies of target ws281x_generate_messages_nodejs[0m
+[ 56%] [34m[1mGenerating Javascript code from ws281x/SetGamma.srv[0m
+[ 56%] Built target ws281x_generate_messages_nodejs
+[35m[1mScanning dependencies of target ws281x_generate_messages_eus[0m
+[ 62%] [34m[1mGenerating EusLisp code from ws281x/SetGamma.srv[0m
+[ 68%] [34m[1mGenerating EusLisp manifest code for ws281x[0m
+[ 68%] Built target ws281x_generate_messages_eus
+[35m[1mScanning dependencies of target ws281x_generate_messages_py[0m
+[ 75%] [34m[1mGenerating Python code from SRV ws281x/SetGamma[0m
+[ 81%] [34m[1mGenerating Python srv __init__.py for ws281x[0m
+[ 81%] Built target ws281x_generate_messages_py
+[35m[1mScanning dependencies of target ws281x_generate_messages_lisp[0m
+[ 87%] [34m[1mGenerating Lisp code from ws281x/SetGamma.srv[0m
+[ 87%] Built target ws281x_generate_messages_lisp
+[35m[1mScanning dependencies of target ws281x_node[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/ws281x_node.dir/src/ws281x_node.cpp.o[0m
+[35m[1mScanning dependencies of target ws281x_generate_messages[0m
+[ 93%] Built target ws281x_generate_messages
+[100%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/ws281x/lib/ws281x/ws281x_node[0m
+[100%] Built target ws281x_node

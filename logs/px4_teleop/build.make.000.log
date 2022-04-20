@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target joy_publisher[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/joy_publisher.dir/src/joy_publisher.cpp.o[0m
+[35m[1mScanning dependencies of target px4_teleop_com[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/px4_teleop_com.dir/src/px4_teleop_com.cpp.o[0m
+[35m[1mScanning dependencies of target px4_teleop_joy[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/px4_teleop_joy.dir/src/px4_teleop_joy.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/px4_teleop/lib/px4_teleop/joy_publisher[0m
+[ 66%] Built target joy_publisher
+[ 83%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/px4_teleop/lib/px4_teleop/px4_teleop_com[0m
+[ 83%] Built target px4_teleop_com
+[100%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/px4_teleop/lib/px4_teleop/px4_teleop_joy[0m
+[100%] Built target px4_teleop_joy

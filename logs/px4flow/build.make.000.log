@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target px4flow_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/px4flow_node.dir/src/SerialComm.cc.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/px4flow_node.dir/src/px4flow_node.cc.o[0m
+[100%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/px4flow/lib/px4flow/px4flow_node[0m
+[100%] Built target px4flow_node

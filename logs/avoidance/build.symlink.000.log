@@ -1,0 +1,4 @@
+Symlinking /home/rajendra/drone_ws/devel/share/avoidance/cmake/avoidanceConfig-version.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/avoidance/cmake/avoidanceConfig.cmake
+Symlinking /home/rajendra/drone_ws/devel/lib/libavoidance.so
+Symlinking /home/rajendra/drone_ws/devel/lib/pkgconfig/avoidance.pc

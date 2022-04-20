@@ -1,0 +1,10 @@
+In file included from /opt/ros/noetic/include/ros/time.h:57,
+                 from /opt/ros/noetic/include/ros/ros.h:38,
+                 from /home/rajendra/drone_ws/src/Fast-Planner/uav_simulator/Utils/waypoint_generator/src/waypoint_generator.cpp:2:
+/opt/ros/noetic/include/ros/duration.h: In function ‘void load_seg(ros::NodeHandle&, int, const ros::Time&)’:
+/opt/ros/noetic/include/ros/duration.h:118:42: warning: ‘time_from_start’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+  118 |   explicit Duration(double t) { fromSec(t); }
+      |                                          ^
+/home/rajendra/drone_ws/src/Fast-Planner/uav_simulator/Utils/waypoint_generator/src/waypoint_generator.cpp:34:12: note: ‘time_from_start’ was declared here
+   34 |     double time_from_start;
+      |            ^~~~~~~~~~~~~~~

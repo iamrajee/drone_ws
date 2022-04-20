@@ -1,0 +1,4 @@
+Symlinking /home/rajendra/drone_ws/devel/share/sand_island/cmake/sand_islandConfig-version.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/sand_island/cmake/sand_islandConfig.cmake
+Symlinking /home/rajendra/drone_ws/devel/etc/catkin/profile.d/99_sand_island_setup.sh
+Symlinking /home/rajendra/drone_ws/devel/lib/pkgconfig/sand_island.pc

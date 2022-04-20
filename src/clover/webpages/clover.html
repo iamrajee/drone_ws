@@ -1,0 +1,28 @@
+<html>
+    <script src="js/roslib.js"></script>
+    <script type="text/javascript">
+        // Establish roslibjs connection
+        var ros = new ROSLIB.Ros({ url: 'ws://' + location.hostname + ':9090' });
+
+        ros.on('connection', function () {
+            // Connection callback
+            alert('Connected');
+        });
+
+        // Declare get_telemetry service client
+        var getTelemetry = new ROSLIB.Service({ ros: ros, name : '/get_telemetry', serviceType : 'clover/GetTelemetry' });
+
+        // Call get_telemetry
+        getTelemetry.callService(new ROSLIB.ServiceRequest({ frame_id: 'map' }), function(result) {
+            // Service respond callback
+            alert('Telemetry: ' + JSON.stringify(result));
+        });
+
+        // Subscribe to `/mavros/state` topic
+        var stateSub = new ROSLIB.Topic({ ros : ros, name : '/mavros/state', messageType : 'mavros_msgs/State' });
+        stateSub.subscribe(function(msg) {
+            // Topic message callback
+            console.log('State: ', msg);
+        });
+    </script>
+</html>

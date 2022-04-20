@@ -1,0 +1,4 @@
+Symlinking /home/rajendra/drone_ws/devel/share/multi_uav_simulator/cmake/multi_uav_simulatorConfig.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/multi_uav_simulator/cmake/multi_uav_simulatorConfig-version.cmake
+Symlinking /home/rajendra/drone_ws/devel/lib/pkgconfig/multi_uav_simulator.pc
+Symlinking /home/rajendra/drone_ws/devel/lib/multi_uav_simulator/multi_uav_simulator

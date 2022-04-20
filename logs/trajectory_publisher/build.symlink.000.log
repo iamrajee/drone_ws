@@ -1,0 +1,4 @@
+Symlinking /home/rajendra/drone_ws/devel/share/trajectory_publisher/cmake/trajectory_publisherConfig.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/trajectory_publisher/cmake/trajectory_publisherConfig-version.cmake
+Symlinking /home/rajendra/drone_ws/devel/lib/trajectory_publisher/trajectory_publisher
+Symlinking /home/rajendra/drone_ws/devel/lib/pkgconfig/trajectory_publisher.pc

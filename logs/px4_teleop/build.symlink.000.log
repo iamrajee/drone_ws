@@ -1,0 +1,6 @@
+Symlinking /home/rajendra/drone_ws/devel/share/px4_teleop/cmake/px4_teleopConfig-version.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/px4_teleop/cmake/px4_teleopConfig.cmake
+Symlinking /home/rajendra/drone_ws/devel/lib/pkgconfig/px4_teleop.pc
+Symlinking /home/rajendra/drone_ws/devel/lib/px4_teleop/px4_teleop_joy
+Symlinking /home/rajendra/drone_ws/devel/lib/px4_teleop/px4_teleop_com
+Symlinking /home/rajendra/drone_ws/devel/lib/px4_teleop/joy_publisher

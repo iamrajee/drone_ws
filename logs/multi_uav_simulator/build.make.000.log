@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target multi_uav_simulator[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/multi_uav_simulator.dir/src/DynamicsProvider.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/multi_uav_simulator.dir/src/cfSimUtils.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/multi_uav_simulator.dir/src/Quadrotor.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/rajendra/drone_ws/devel/.private/multi_uav_simulator/lib/multi_uav_simulator/multi_uav_simulator[0m
+[100%] Built target multi_uav_simulator

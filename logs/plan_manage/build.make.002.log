@@ -1,0 +1,19 @@
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[ 35%] Built target fast_planner_node
+[ 35%] Built target _plan_manage_generate_messages_check_deps_Bspline
+[ 57%] Built target plan_manage_generate_messages_eus
+[ 64%] Built target plan_manage_generate_messages_py
+[ 71%] Built target plan_manage_generate_messages_nodejs
+[ 78%] Built target plan_manage_generate_messages_cpp
+[ 85%] Built target plan_manage_generate_messages_lisp
+[ 85%] Built target plan_manage_generate_messages
+[100%] Built target traj_server

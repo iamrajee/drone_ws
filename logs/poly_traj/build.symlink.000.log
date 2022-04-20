@@ -1,0 +1,4 @@
+Symlinking /home/rajendra/drone_ws/devel/share/poly_traj/cmake/poly_trajConfig.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/poly_traj/cmake/poly_trajConfig-version.cmake
+Symlinking /home/rajendra/drone_ws/devel/lib/libpoly_traj.so
+Symlinking /home/rajendra/drone_ws/devel/lib/pkgconfig/poly_traj.pc

@@ -1,0 +1,6 @@
+Symlinking /home/rajendra/drone_ws/devel/share/uav_control/cmake/uav_controlConfig-version.cmake
+Symlinking /home/rajendra/drone_ws/devel/share/uav_control/cmake/uav_controlConfig.cmake
+Symlinking /home/rajendra/drone_ws/devel/lib/pkgconfig/uav_control.pc
+Symlinking /home/rajendra/drone_ws/devel/lib/uav_control/uav_motion_primitive
+Symlinking /home/rajendra/drone_ws/devel/lib/uav_control/uav_take_off
+Symlinking /home/rajendra/drone_ws/devel/lib/uav_control/uav_waypoint
